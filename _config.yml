@@ -9,7 +9,8 @@ baseurl: "/w19"  # the subpath of your site, e.g. "/blog"
 
 course: "CS111"
 course_title: "Introduction to Computational Science"
-
+title: "UCSB CS111 W19"
+github_url: https://github.com/ucsb-cs111/w19
 qtr: "W19"
 quarter: "Winter 2019"
 
@@ -17,8 +18,6 @@ quarter: "Winter 2019"
 kramdown:
    parse_block_html: false
 
-title: "UCSB CS111"
-github_url: https://github.com/ucsb-cs111/ucsb-cs111.github.io
 
 
 exclude:
