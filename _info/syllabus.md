@@ -76,10 +76,11 @@ To run Matlab from your personal machine, you can:
 The course will also use the "NCM" software, which you can put on your Matlab path at CSIL in any of several ways:
 
 | at the Matlab prompt     | `addpath /cs/class/cs111/ncm` |
-| in your `startup.m` file | `addpath /cs/class/cs111/ncm |
+| in your `startup.m` file | `addpath /cs/class/cs111/ncm` |
 | when running Matlab      | `matlab -r "addpath /cs/class/cs111/ncm"` |
 | `bash` command or put in `~/.bashrc` | `export MATLABPATH=/cs/class/cs111/ncm` |
 | `csh` command or put in `~/.cshrc`   | `setenv MATLABPATH /cs/class/cs111/ncm` |
+
 
 For the ECI lab machines or your personal machine, you can download
 your own copy of NCM from the [textbook web site](https://www.mathworks.com/moler/index_ncm.html).
