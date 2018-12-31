@@ -28,17 +28,10 @@ exclude:
 timezone: America/Los_Angeles
 
 collections:
-  topics:
+  info:
     output: true
-    permalink: /topics/:path/
+    permalink: /info/:path/
 
-  textbooks:
-    output: true
-    permalink: /textbooks/:path/
-
-  resources:
-    output: true
-    permalink: /resources/:path/
 
 defaults:
   -
@@ -55,7 +48,7 @@ defaults:
 
   - scope:
       path: ""
-      type: topics
+      type: info
     values:
       layout: default
 
