@@ -24,7 +24,14 @@ exclude:
   - 'vendor'
   - 'setup.sh'
   - 'jekyll.sh'
+include:
+  - '_pages'
 
+head_scripts:
+  - /assets/js/cs111_head.js
+
+
+  
 timezone: America/Los_Angeles
 
 collections:
@@ -58,6 +65,4 @@ defaults:
     values:
       layout: default
 
-include:
-  - _pages
 

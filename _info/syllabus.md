@@ -6,11 +6,21 @@ layout: default
 
 # Introduction to Computational Science
 
-Introduction to scientific computing, emphasizing basic numerical algorithms and the informed use of mathematical software. Matrix computation, systems of linear equations, differential equations. Students will learn and use the Matlab language.
+Introduction to scientific computing, emphasizing basic numerical
+algorithms and the informed use of mathematical software. Matrix
+computation, systems of linear equations, differential
+equations. Students will learn and use the
+[Matlab](https://ucsb-cs111.github.io/topics/matlab/) language.
 
-<div class="d-none d-lg-block" style="float:right; width:425px; padding:4px; margin:4px;">
-<!--hide on screens smaller than lg-->
-<img src="{{ '/images/' | relative_url }}" title="logo design: Yun Teng, CS 111 Fall 2010" alt="CS111 logo">
+<div class="d-none d-lg-block"
+     style="float:right; width:425px; padding:4px; margin:4px;">
+<!-- d-none and d-lg-block means: hide on screens smaller than lg-->
+<!-- lg is a bootstrap setting for the width of the screen -->
+<!-- see: https://getbootstrap.com/docs/4.1/utilities/display/ -->
+<img id="cs111-logo"
+     src="{{ '/images/logoTY.png' | relative_url }}"
+     title="logo design: Yun Teng, CS 111 Fall 2010"
+     alt="CS111 logo">
 </div>
 
 
@@ -62,114 +72,158 @@ bookstore.
 
 The course will also use the "NCM" software, which you can put on your Matlab path at CSIL in any of several ways:
 
-at the Matlab prompt: addpath /cs/class/cs111/ncm
-in your startup.m file: addpath /cs/class/cs111/ncm
-when running Matlab: matlab -r "addpath /cs/class/cs111/ncm"
-bash command or put in ~/.bashrc: export MATLABPATH=/cs/class/cs111/ncm
-csh command or put in ~/.cshrc: setenv MATLABPATH /cs/class/cs111/ncm
-For the ECI lab machines or your personal machine, you can download your own copy of NCM from the textbook web site.
 
-Grades:
-Homework assignments: 40%
-Midterm exam: 20%
-Final exam: 40%
-Midterm:
+| at the Matlab prompt     | `addpath /cs/class/cs111/ncm` |
+| in your `startup.m` file | `addpath /cs/class/cs111/ncm |
+| when running Matlab      | `matlab -r "addpath /cs/class/cs111/ncm"`
+| `bash` command or put in `~/.bashrc` | `export MATLABPATH=/cs/class/cs111/ncm` |
+| `csh` command or put in `~/.cshrc`   | `setenv MATLABPATH /cs/class/cs111/ncm` |
+
+For the ECI lab machines or your personal machine, you can download
+your own copy of NCM from the textbook web site.
+
+# Grades
+
+|Homework assignments | 40% |
+|Midterm exam | 20% |
+|Final exam   | 40% |
+
+# Midterm
+
 Wednesday, November 3, in class.
+
 Open book, open notes, no computers or other electronic devices.
+
 The midterm will cover chapters 1 and 2 of the text and general knowledge of Matlab including indexing, permutations, and so forth.
+
 Sample exam: 2005 midterm. (CS 111 was called CS 110A in 2005.)
-Final exam:
+
+# Final exam
+
 8:00 am - 11:00 am (sorry about that), Thursday, December 9, in classroom.
+
 Open book, open notes, no computers or other electronic devices.
+
 The final will cover material from the entire course. (See the list of topics.)
+
 Sample final exam problems.
-Homework policy:
-There will be a homework assignment every week. You may talk to each other about the assignment, but what you submit must be your own work. Most weeks there will be two sets of problems: one to be turned in for a grade, and one for self-study to test your own understanding of the course material.
-All homework must be submitted in hard copy, on paper. We strongly encourage you to write up your homework using LaTeX, which is the standard markup language for mathematical documents. To get you started, here is the LaTeX for the review quiz.
+
+# Homework policy
+
+There will be a homework assignment every week. You may talk to each
+other about the assignment, but what you submit must be your own
+work. Most weeks there will be two sets of problems: one to be turned
+in for a grade, and one for self-study to test your own understanding
+of the course material.  All homework must be submitted in hard copy,
+on paper. We strongly encourage you to write up your homework using
+LaTeX, which is the standard markup language for mathematical
+documents. To get you started, here is the LaTeX for the review quiz.
 
 When a homework exercise requires a Matlab program, turn in four things:
 
-the Matlab program listing (m-files; use "verbatim" mode in LaTeX)
-the relevant lines from the diary of your Matlab session running the program ("verbatim" in LaTeX)
-copies of any output figures or plots (save figures as pdf's and include in LaTeX)
-a description in English of what you did and how
-Homework is due every Monday at the beginning of class, or in the CS111 homework box in the Computer Science mailroom, 2108 HFH, by 9:00 am Monday. No late homework will be accepted under any circumstances, but I will drop your two lowest homework grades.
-If you have questions about grading of homework, talk to the grader or the t.a. first. If you are unable to reach an agreement, make an appointment to talk to me. The statute of limitations for regrades is one week -- that is, any requests for regrades must be made no later than one week after the homework (or exam) was returned in class.
+1. the Matlab program listing (`.m` files; use `verbatim` mode in LaTeX)
+2. the relevant lines from the diary of your Matlab session running the program
+   (`\begin{verbatim}...\end{verbatim}` in
+   [LaTeX](https://ucsb-cs111.github.io/topics/latex/))
+3. copies of any output figures or plots (save figures as pdf's and include in LaTeX)
+4. a description in English of what you did and how
+
+Homework is due every Monday at the beginning of class, or in the
+CS111 homework box in the Computer Science mailroom, 2108 HFH, by 9:00
+am Monday.
+
+No late homework will be accepted under any circumstances, but I will
+drop your two lowest homework grades.  If you have questions about
+grading of homework, talk to the grader or the t.a. first. If you are
+unable to reach an agreement, make an appointment to talk to me. The
+statute of limitations for regrades is one week -- that is, any
+requests for regrades must be made no later than one week after the
+homework (or exam) was returned in class.
 
 Homework assignments:
-Due Wed, Sep 29: Do the review quiz. Turn this in, Wednesday in class. We will correct the quiz, but you will get full credit just for turning it in. Here are the answers to the quiz.
-Due Mon, Oct 4: Exercises 1.1, 1.5, 1.13, 1.15, 1.17. (Turn these in for a grade, in class.)
-Due Mon, Oct 11: Exercises 2.1, 2.4, 2.8, 2.10. (Turn these in for a grade.)
-Self study for Mon, Oct 11: Exercises 2.3, 2.7, 2.17. (Don't turn these in, they are to test your own understanding.)
-Due Mon, Oct 18: Exercises 2.5, 2.11, 2.16 parts a-d (Turn these in for a grade.)
-Self study for Mon, Oct 18: Exercises 2.9, 2.12, 2.14 (Don't turn these in.)
-Due Mon, Oct 25: Exercises 2.18, 2.22, 2.23, 2.25. (Turn these in for a grade.)
-Self study for Mon, Oct 25: Exercises 2.15, 2.19. (Don't turn these in.)
-Due Mon, Nov 1: Exercises 1.34, 1.35, 1.36, 1.38. (Turn these in for a grade.)
-Self study for Mon, Nov 1: Exercise 1.39. (Don't turn this in.)
-Due Mon, Nov 15: Exercises 5.2, 5.8, 7.1. (Turn these in for a grade.)
-Self study for Mon, Nov 15: Exercises 5.3, 5.11. (Don't turn these in.)
-Due Mon, Nov 22: Exercises 7.4, 7.16, 7.18. (Turn these in for a grade.)
-Self study for Mon, Nov 22: Run all the examples in Section 7.7 in Matlab. Also, do Exercise 7.2 (Don't turn these in.)
-Due Wed, Dec 1 (extension due to CSIL closure): Exercise 7.21. (This is a longer but moderately realistic problem about modeling global warming. Among other things you'll use an interpolation routine, "pchiptx", from Chapter 3. Turn this in for a grade.)
-Self study for Mon, Nov 29: Exercises 10.12, 10.14, 7.23. (Don't turn these in.)
-Class schedule, diaries, and reading assignments:
+
+
+* Due Wed, Sep 29: Do the review quiz. Turn this in, Wednesday in class. We will correct the quiz, but you will get full credit just for turning it in. Here are the answers to the quiz.
+* Due Mon, Oct 4: Exercises 1.1, 1.5, 1.13, 1.15, 1.17. (Turn these in for a grade, in class.)
+* Due Mon, Oct 11: Exercises 2.1, 2.4, 2.8, 2.10. (Turn these in for a grade.)
+* Self study for Mon, Oct 11: Exercises 2.3, 2.7, 2.17. (Don't turn these in, they are to test your own understanding.)
+* Due Mon, Oct 18: Exercises 2.5, 2.11, 2.16 parts a-d (Turn these in for a grade.)
+* Self study for Mon, Oct 18: Exercises 2.9, 2.12, 2.14 (Don't turn these in.)
+* Due Mon, Oct 25: Exercises 2.18, 2.22, 2.23, 2.25. (Turn these in for a grade.)
+* Self study for Mon, Oct 25: Exercises 2.15, 2.19. (Don't turn these in.)
+* Due Mon, Nov 1: Exercises 1.34, 1.35, 1.36, 1.38. (Turn these in for a grade.)
+* Self study for Mon, Nov 1: Exercise 1.39. (Don't turn this in.)
+* Due Mon, Nov 15: Exercises 5.2, 5.8, 7.1. (Turn these in for a grade.)
+* Self study for Mon, Nov 15: Exercises 5.3, 5.11. (Don't turn these in.)
+* Due Mon, Nov 22: Exercises 7.4, 7.16, 7.18. (Turn these in for a grade.)
+* Self study for Mon, Nov 22: Run all the examples in Section 7.7 in Matlab. Also, do Exercise 7.2 (Don't turn these in.)
+* Due Wed, Dec 1 (extension due to CSIL closure): Exercise 7.21. (This is a longer but moderately realistic problem about modeling global warming. Among other things you'll use an interpolation routine, "pchiptx", from Chapter 3. Turn this in for a grade.)
+* Self study for Mon, Nov 29: Exercises 10.12, 10.14, 7.23. (Don't turn these in.)
+* Class schedule, diaries, and reading assignments:
+
+# Schedules of Classes
+
 The schedule of future classes should be considered tentative!
-Mon Sep 27: Introduction. The fractal fern. [diary]
-Reading: Sections 1.1 through 1.6 (intro to Matlab).
 
-Wed Sep 29: Systems of linear equations. [diary (you will also need to put the file temperature.mat in your home or Matlab directory)]
-Reading: Sections 2.1 through 2.7 (Linear equations, backslash, LU).
+* Mon Sep 27: Introduction. The fractal fern. [diary]
+   * Reading: Sections 1.1 through 1.6 (intro to Matlab).
 
-Mon Oct 4: Solving Ax=b, LU factorization. [diary]
-Reading: Same as last time, sections 2.1 through 2.7.
+* Wed Sep 29: Systems of linear equations. [diary (you will also need to put the file temperature.mat in your home or Matlab directory)]
+   * Reading: Sections 2.1 through 2.7 (Linear equations, backslash, LU).
 
-Wed Oct 6: LU factorization, partial pivoting, permutation vectors. [diary (requires LU.mat and temperature.mat)]
-Reading: Sections 2.10 through 2.12 (Sparse matrices, PageRank).
+* Mon Oct 4: Solving Ax=b, LU factorization. [diary]
+   * Reading: Same as last time, sections 2.1 through 2.7.
 
-Mon Oct 11: Permutations, diagonal matrices, indexing. [diary, testmat.m, LU.mat]
-Reading: Same as last time, sections 2.10 through 2.12.
+* Wed Oct 6: LU factorization, partial pivoting, permutation vectors.
+   * [diary (requires LU.mat and temperature.mat)]
+   * Reading: Sections 2.10 through 2.12 (Sparse matrices, PageRank).
 
-Wed Oct 13: Sparse matrices, graphs, PageRank. [diary, slides, temperature.mat]
-Reading: Sections 2.8 and 2.9 (Error and residual, norm and condition number).
+* Mon Oct 11: Permutations, diagonal matrices, indexing.
+   * [diary, testmat.m, LU.mat]
+   * Reading: Same as last time, sections 2.10 through 2.12.
 
-Mon Oct 18: Markov chains and PageRank. [diary, slides]
-Reading: Section 1.7 (Floating-point arithmetic).
+* Wed Oct 13: Sparse matrices, graphs, PageRank.
+   * [diary, slides, temperature.mat]
+   * Reading: Sections 2.8 and 2.9 (Error and residual, norm and condition number).
 
-Wed Oct 20: Norms and condition numbers. [diary]
-Reading: Same as last time, section 1.7.
+* Mon Oct 18: Markov chains and PageRank. [diary, slides]
+   * Reading: Section 1.7 (Floating-point arithmetic).
 
-Mon Oct 25: How floating-point arithmetic works. [diary]
+* Wed Oct 20: Norms and condition numbers. [diary]
+   * Reading: Same as last time, section 1.7.
 
-Wed Oct 27: Round-off error. [diary]
+* Mon Oct 25: How floating-point arithmetic works. [diary]
 
-Mon Nov 1: Least squares and curve fitting.
+* Wed Oct 27: Round-off error. [diary]
 
-Wed Nov 3: Midterm.
+* Mon Nov 1: Least squares and curve fitting.
 
-Mon Nov 8: Iterative methods for solving linear systems. [diary, roomtemp.mat, jacobitest1.m, jacobitest2.m, jacobitest3.m]
+* Wed Nov 3: Midterm.
+
+* Mon Nov 8: Iterative methods for solving linear systems. [diary, roomtemp.mat, jacobitest1.m, jacobitest2.m, jacobitest3.m]
 Reading: Sections 5.1 - 5.5 (least squares) and 7.1 - 7.2 (ODEs).
 
-Wed Nov 10: Ordinary differential equations. Standard form, Lotka-Volterra equations. [diary, f.m, mylotka.m]
-Reading: Sections 7.7, 7.4, 7.5, 7.6, 7.8 (ODE examples and algorithms).
+* Wed Nov 10: Ordinary differential equations. Standard form, Lotka-Volterra equations. [diary, f.m, mylotka.m]
+   * Reading: Sections 7.7, 7.4, 7.5, 7.6, 7.8 (ODE examples and algorithms).
 
-Mon Nov 15: Adam Lugowski, guest speaker: Parallel computing on graphs and matrices. [slides]
-Reading: Sections 7.3, 7.7, 7.10.
+* Mon Nov 15: Adam Lugowski, guest speaker: Parallel computing on graphs and matrices. [slides]
+   * Reading: Sections 7.3, 7.7, 7.10.
 
-Wed Nov 17: ODEs: Forward Euler and BS23 algorithms. [diary, weightf.m, ode1.m, Top500, SCEC]
-Reading: The rest of Chapter 7: sections 7.9 and 7.11 - 7.15.
+* Wed Nov 17: ODEs: Forward Euler and BS23 algorithms. [diary, weightf.m, ode1.m, Top500, SCEC]
+   * Reading: The rest of Chapter 7: sections 7.9 and 7.11 - 7.15.
 
-Mon Nov 22: ODEs: Stiff problems. [diary, valleyf.m]
-Reading: Sections 10.1 - 10.3 (eigenvalues and SVD), 10.5 (eigenvalues of symmetric matrices), 10.11 (PCA).
+* Mon Nov 22: ODEs: Stiff problems. [diary, valleyf.m]
+   * Reading: Sections 10.1 - 10.3 (eigenvalues and SVD), 10.5 (eigenvalues of symmetric matrices), 10.11 (PCA).
 
-Wed Nov 24: All questions answered. [diary, ptf.m, eventfunction.m, event1.m]
+* Wed Nov 24: All questions answered. [diary, ptf.m, eventfunction.m, event1.m]
 
-Mon Nov 29: Eigenvalues, eigenvectors, and SVD. [diary]
+* Mon Nov 29: Eigenvalues, eigenvectors, and SVD. [diary]
 
-Wed Dec 1: SVD and principal component analysis. [diary, approximation.m, spynum.m, spyimg.m, mycmap.m]
+* Wed Dec 1: SVD and principal component analysis. [diary, approximation.m, spynum.m, spyimg.m, mycmap.m]
 
-Thu Dec 9: Final exam, 8:00 to 11:00 am.
+* Thu Dec 9: Final exam, 8:00 to 11:00 am.
 
-Other things:
-Nick Trefethen on The definition of numerical analysis
-MIT's Math 18.06, an introductory course in linear algebra, with Gil Strang's wonderful lectures online.
+# Other things
+
+* Nick Trefethen on The definition of numerical analysis
+* MIT's Math 18.06, an introductory course in linear algebra, with Gil Strang's wonderful lectures online.
