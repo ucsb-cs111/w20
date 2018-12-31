@@ -1,6 +1,6 @@
 ---
-num: "lect01"
-lecture_date: 2019-01-07
+num: "lect03"
+lecture_date: 2019-01-14
 desc: "topic goes here"
 ready: false
 ---

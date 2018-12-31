@@ -14,6 +14,9 @@ github_url: https://github.com/ucsb-cs111/w19
 qtr: "W19"
 quarter: "Winter 2019"
 
+lecture_code:
+   url: https://github.com/ucsb-cs111/w19-lecture-files/
+
 start_week: 1
 start_date: 2019-01-06 
 num_weeks: 10
@@ -113,6 +116,7 @@ defaults:
       type: lectures
     values:
       layout: lecture
+      ready: false
   -
     scope:
       path: "syllabus.md"
