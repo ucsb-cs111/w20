@@ -12,16 +12,8 @@ computation, systems of linear equations, differential
 equations. Students will learn and use the
 [Matlab](https://ucsb-cs111.github.io/topics/matlab/) language.
 
-<div class="d-none d-lg-block"
-     style="float:right; width:425px; padding:4px; margin:4px;">
-<!-- d-none and d-lg-block means: hide on screens smaller than lg-->
-<!-- lg is a bootstrap setting for the width of the screen -->
-<!-- see: https://getbootstrap.com/docs/4.1/utilities/display/ -->
-<img id="cs111-logo"
-     src="{{ '/images/logoTY.png' | relative_url }}"
-     title="logo design: Yun Teng, CS 111 Fall 2010"
-     alt="CS111 logo">
-</div>
+{% include cs111_logo.html %}
+
 
 
 | Instructor: | Prof. John R. Gilbert |
@@ -59,28 +51,38 @@ questions). The mailing address for posting to the group is
 The textbook is: Numerical Computing with Matlab, by Cleve Moler. The
 book has a [web site](http://www.mathworks.com/moler/index_ncm.html).
 
-Besides the bookstore, you can download the book
-from its web site, or you can order it from [SIAM](http://ec-securehost.com/SIAM/ot87.html), the Society for
-Industrial and Applied Mathematics. You can get a discount on the book
-if you are a [member of SIAM](http://www.siam.org/membership/individual/free.php), which is free for UCSB students (talk to
-me).  Course software and computer resources: You'll use Matlab for
-all your programming in the course. It works on the Linux computers in
-CSIL and on the Windows computers in the ECI labs. To run Matlab from
-your personal machine, you can log in to CSIL remotely and forward the
-graphics, or else buy a copy of the "student version" at the
-bookstore.
+Besides the bookstore, you can:
+* download the book from its web site, or
+* order it from [SIAM](http://ec-securehost.com/SIAM/ot87.html), the Society for
+Industrial and Applied Mathematics.
+
+You can get a discount on the book if you are a
+[member of SIAM](http://www.siam.org/membership/individual/free.php),
+which is free for UCSB students (talk to Prof. Gilbert.).
+
+# Course software and computer resources:
+
+You'll use Matlab for all your programming in the course. It works on
+the Linux computers in CSIL and on the Windows computers in the ECI
+labs.
+
+To run Matlab from your personal machine, you can:
+* log in to CSIL remotely
+   and [forward the graphics](https://ucsb-cs111.github.io/topics/x11_forwarding/), or
+* download a copy using the UCSB Campus License
+   (see: [MATLAB](https://ucsb-cs111.github.io/topics/matlab))
+
 
 The course will also use the "NCM" software, which you can put on your Matlab path at CSIL in any of several ways:
 
-
 | at the Matlab prompt     | `addpath /cs/class/cs111/ncm` |
 | in your `startup.m` file | `addpath /cs/class/cs111/ncm |
-| when running Matlab      | `matlab -r "addpath /cs/class/cs111/ncm"`
+| when running Matlab      | `matlab -r "addpath /cs/class/cs111/ncm"` |
 | `bash` command or put in `~/.bashrc` | `export MATLABPATH=/cs/class/cs111/ncm` |
 | `csh` command or put in `~/.cshrc`   | `setenv MATLABPATH /cs/class/cs111/ncm` |
 
 For the ECI lab machines or your personal machine, you can download
-your own copy of NCM from the textbook web site.
+your own copy of NCM from the [textbook web site](https://www.mathworks.com/moler/index_ncm.html).
 
 # Grades
 
@@ -94,9 +96,10 @@ Wednesday, November 3, in class.
 
 Open book, open notes, no computers or other electronic devices.
 
-The midterm will cover chapters 1 and 2 of the text and general knowledge of Matlab including indexing, permutations, and so forth.
+The midterm will cover chapters 1 and 2 of the text and general
+knowledge of Matlab including indexing, permutations, and so forth.
 
-Sample exam: 2005 midterm. (CS 111 was called CS 110A in 2005.)
+Sample exam: [2005 midterm](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/midterm2005.pdf). (CS 111 was called CS 110A in 2005.)
 
 # Final exam
 
@@ -104,9 +107,10 @@ Sample exam: 2005 midterm. (CS 111 was called CS 110A in 2005.)
 
 Open book, open notes, no computers or other electronic devices.
 
-The final will cover material from the entire course. (See the list of topics.)
+The final will cover material from the entire course.
+(See the [list of topics]({{ '/info/topics' | relative_url }}))
 
-Sample final exam problems.
+* [Sample final exam problems](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/SampleFinalComplete.pdf)
 
 # Homework policy
 
@@ -117,7 +121,8 @@ in for a grade, and one for self-study to test your own understanding
 of the course material.  All homework must be submitted in hard copy,
 on paper. We strongly encourage you to write up your homework using
 LaTeX, which is the standard markup language for mathematical
-documents. To get you started, here is the LaTeX for the review quiz.
+documents. To get you started, [here is the LaTeX](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.tex) for the [review quiz](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.pdf).
+
 
 When a homework exercise requires a Matlab program, turn in four things:
 
@@ -130,17 +135,19 @@ When a homework exercise requires a Matlab program, turn in four things:
 
 Homework is due every Monday at the beginning of class, or in the
 CS111 homework box in the Computer Science mailroom, 2108 HFH, by 9:00
-am Monday.
+am Monday. <span style="color:red">No late homework will be accepted
+under any circumstances</span>, but I will drop your two lowest
+homework grades.
 
-No late homework will be accepted under any circumstances, but I will
-drop your two lowest homework grades.  If you have questions about
-grading of homework, talk to the grader or the t.a. first. If you are
-unable to reach an agreement, make an appointment to talk to me. The
-statute of limitations for regrades is one week -- that is, any
-requests for regrades must be made no later than one week after the
-homework (or exam) was returned in class.
+If you have questions about grading of homework, talk to the grader or
+the t.a. first. If you are unable to reach an agreement, make an
+appointment to talk to me. <span style="color:red">The statute of
+limitations for regrades is one week<span>&mdash;that is, any requests
+for regrades must be made no later than one week after the homework
+(or exam) was returned in class.
 
-Homework assignments:
+
+# Homework assignments:
 
 
 * Due Wed, Sep 29: Do the review quiz. Turn this in, Wednesday in class. We will correct the quiz, but you will get full credit just for turning it in. Here are the answers to the quiz.
@@ -225,5 +232,8 @@ Reading: Sections 5.1 - 5.5 (least squares) and 7.1 - 7.2 (ODEs).
 
 # Other things
 
-* Nick Trefethen on The definition of numerical analysis
-* MIT's Math 18.06, an introductory course in linear algebra, with Gil Strang's wonderful lectures online.
+* Nick Trefethen on [The definition of numerical analysis](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/defn.pdf)
+* MIT's Math 18.06, an introductory course in linear algebra,
+   with Gil Strang's wonderful
+   [lectures](http://web.mit.edu/18.06/www/Video/video-fall-99-new.html)
+   online.

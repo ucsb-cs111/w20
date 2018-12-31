@@ -27,9 +27,6 @@ exclude:
 include:
   - '_pages'
 
-head_scripts:
-  - /assets/js/cs111_head.js
-
 
   
 timezone: America/Los_Angeles
