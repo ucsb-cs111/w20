@@ -9,7 +9,8 @@ ready: false
 
 # Topics
 
-TODO: Fill this in
+TBD, but tentative, we might cover  Solving $$Ax = b$$ by Jacobi iteration and conjugate gradients.
+
 
 
 
