@@ -1,7 +1,7 @@
 ---
 num: "lect01"
 lecture_date: 2019-01-07
-desc: "topic goes here"
+desc: "Introduction to Everything (etc.)"
 ready: false
 ---
 
@@ -9,7 +9,9 @@ ready: false
 
 # Topics
 
-TODO: Fill this in
+TODO: say a few things about $Ax=b$ and $Ax=\lambda x$.
+Then say it in *boldface* or _italics_ too
+
 
 
 
