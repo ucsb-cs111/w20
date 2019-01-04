@@ -6,21 +6,8 @@ title: UCSB CS111
 
 {% include cs111_logo.html %}
 
-{% include collapse-button.html label="About this course" id="about" %}
-<div class="collapse" id="about">
- <div class="card card-body" markdown="1">
-A course taught 
-in the [Dept. of Computer Science](http://www.cs.ucsb.edu) at
-[UC Santa Barbara](http://www.ucsb.edu)
 
 {% include catalog_description.md %}
-
-
-This site is maintained in this github repo: <{{site.github_url}}>
-
-</div>
-</div>
-
 
 {% include collapse-button.html label="Information" id="info-list" %}
 <div class="collapse" id="info-list">
