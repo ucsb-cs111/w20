@@ -5,6 +5,8 @@ layout: default
 
 # Software
 
+We will be using the Python language, together with the
+
 Previous versions of this course used [MATLAB](https://ucsb-cs111.github.io/topics/matlab/).
 
 This quarter, we will be using Python in place of MATLAB.
