@@ -5,7 +5,7 @@ layout: default
 
 # Software
 
-We will be using Python for programming in this course, leaning heavily the following three packages:
+We will be using Python for programming in this course, leaning heavily on the following three packages:
 
 * [numpy](https://ucsb-cs111.github.io/topics/numpy/): Numerical computing with arrays and matrices
 * [scipy](https://ucsb-cs111.github.io/topics/scipy/): Some more advanced numerical computing, including sparse matrices
