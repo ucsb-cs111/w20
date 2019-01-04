@@ -18,12 +18,13 @@ The easy way to do this is to download [Anaconda](https://www.anaconda.com/downl
 will install everything you need. The t.a.s will demo the setup process in the first sections, on Tuesday,
 January 8.
 
-It's also possible to run a Python in a Jupyter notebook in a web browser at CSIL. You can go that route if it
+It's also possible to run Python in a Jupyter notebook in a web browser at CSIL. You can go that route if it
 works better for you, but I think it's much easier to run everything on your own computer. (That's what I do.)
 
 Previous versions of this course used [MATLAB](https://ucsb-cs111.github.io/topics/matlab/), which is a proprietary
-interactive numerical software package (UCSB has a campuswide license). Numpy is designed to look a lot like Matlab,
-in which arrays and matrices are the main data structures. If you already know Matlab, 
+interactive numerical software package (UCSB has a campuswide license) that's widely used in engineering.
+Numpy is designed to look a lot like Matlab. They both use
+arrays and matrices as their main data structures; the advantage of numpy is that you also have all of Python available.
+If you already know Matlab, 
 [here](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) is a cheat sheet for translating Matlab
-into numpy; if you don't know Matlab, don't worry about it. The matplotlib library that we will use for plotting
-also has a lot of similarity to Matlab's plotting routines.
+into numpy. The matplotlib library that we will use for plotting also has a lot of similarity to Matlab's plotting routines.
