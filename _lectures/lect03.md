@@ -10,6 +10,13 @@ ready: false
 # Topics
 
 TODO: Fill this in
+Here is some python code to calculate something.
+
+```python
+import numpy as np
+A = np.array([[1,2 ], [3,4]])
+print(A)
+```
 
 
 
