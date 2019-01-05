@@ -11,7 +11,7 @@
 {% for lect in site.lectures %}
  
 <tr class={% if lect.ready %}"ready"{% else %}"not-ready"{% endif %} >
-  <td class="lect_num" >{{lect.lecture_date | date: "%a %b %d %Y" }}</td>
+  <td class="lect_num" >{{lect.lecture_date | date: "%a %b %d" }}</td>
   <td class="lect_desc" >{{lect.desc }}</td>
   <td class="lect_ready">{{lect.ready}}</td>
   <td class="lect_num" ><a href="{{lect.url | relative_url}}">{{lect.num}}</a></td>
