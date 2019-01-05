@@ -9,7 +9,7 @@ ready: false
 
 # Topics
 
-TODO: say a few things about $Ax=b$ and $Ax=\lambda x$.
+TODO: say a few things about $$Ax=b$$ and $$Ax=\lambda x$$.
 Then say it in *boldface* or _italics_ too
 
 
