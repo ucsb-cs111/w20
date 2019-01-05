@@ -4,6 +4,7 @@
 
 .bundle
 vendor
+drafts
 
 _site/
 .sass-cache/
