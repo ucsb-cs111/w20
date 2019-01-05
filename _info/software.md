@@ -23,8 +23,8 @@ It's also possible to run Python in a Jupyter notebook in a web browser at CSIL.
 works better for you, but it's much easier to run everything on your own computer. (That's what I do.)
 
 Previous versions of this course used [MATLAB](https://www.mathworks.com/products/matlab.html), which is a proprietary
-interactive numerical software package that's widely used in engineering. UCSB has a
-[campuswide MATLAB license](https://www.mathworks.com/academia/tah-portal/university-california-santa-barbara-40469638.html).
+interactive numerical software package that's widely used in engineering. (UCSB has a
+[campuswide MATLAB license](https://www.mathworks.com/academia/tah-portal/university-california-santa-barbara-40469638.html).)
 Numpy is designed to look a lot like Matlab.
 They both use arrays and matrices as their main data structures;
 the advantage of numpy is that you also have all of Python available.
