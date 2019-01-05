@@ -59,6 +59,7 @@ collections:
     output: true
     permalink: /hwk/:path/
     last_before: false
+    ready: false
   lab:
     output: true
     permalink: /lab/:path/
@@ -72,7 +73,7 @@ collections:
   lectures:
     output: true
     permalink: /lectures/:path/
-
+    ready: false
 
 defaults:
   -
