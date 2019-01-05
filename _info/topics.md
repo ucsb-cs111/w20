@@ -12,11 +12,10 @@ title: Topics
 * Solving symmetric positive definite linear systems by conjugate gradients.
 * Error and residual in linear systems.
 * Matrix condition number.
+* Floating-point arithmetic.
 * Least squares data fitting.
 * Eigenvalues and eigenvectors of symmetric matrices.
 * Sparse matrices and graphs.
-* The PageRank algorithm.
-* Floating-point arithmetic.
 * Standard form of ordinary differential equations (ODEs).
 * Forward and backward Euler and BS23 algorithms for ODEs.
 * Basic elliptic partial differential equations (PDEs): Poisson / Laplacian / heat equation.
