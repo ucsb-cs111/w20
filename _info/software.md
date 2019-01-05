@@ -8,8 +8,8 @@ layout: default
 We will be using Python for programming in this course, leaning heavily on the following three packages:
 
 * [numpy](https://ucsb-cs111.github.io/topics/numpy/): Numerical computing with arrays and matrices
-* [scipy](https://ucsb-cs111.github.io/topics/scipy/): Some more advanced numerical computing, including sparse matrices
-* [matplotlib](https://ucsb-cs111.github.io/topics/matplotlib/): Plotting
+* [scipy](https://ucsb-cs111.github.io/topics/scipy/): More advanced numerical computing, including sparse matrices
+* [matplotlib](https://ucsb-cs111.github.io/topics/matplotlib/): Plotting and visualization
 
 We will use [Jupyter notebooks](https://jupyter.org/) to run Python interactively, in a web browser, both for demos 
 in class and for your programming assignments. I strongly recommend that you set up your own laptop or computer to
