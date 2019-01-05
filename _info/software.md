@@ -24,7 +24,7 @@ works better for you, but I think it's much easier to run everything on your own
 
 Previous versions of this course used [MATLAB](https://www.mathworks.com/products/matlab.html), which is a proprietary
 interactive numerical software package that's widely used in engineering. UCSB has a
-([campuswide MATLAB license](https://www.mathworks.com/academia/tah-portal/university-california-santa-barbara-40469638.html).
+[campuswide MATLAB license](https://www.mathworks.com/academia/tah-portal/university-california-santa-barbara-40469638.html).
 Numpy is designed to look a lot like Matlab. They both use
 arrays and matrices as their main data structures; the advantage of numpy is that you also have all of Python available.
 If you already know Matlab, here is
