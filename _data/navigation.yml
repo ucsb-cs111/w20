@@ -49,6 +49,6 @@ offering_links:
   - title: GradeScope
     url: https://gradescope.com
     description: "Quiz and Exam Grades"
-  - title: Lecture Files
+  - title: All Lecture Files
     url: https://github.com/ucsb-cs111/w19-lecture-files
     description: "Files from Lecture"
