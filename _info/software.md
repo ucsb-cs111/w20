@@ -5,11 +5,12 @@ layout: default
 
 # Software
 
-We will be using Python for programming in this course, leaning heavily on the following three packages:
+We will be using [Python](https://docs.python.org/3.6/) for programming in this course,
+leaning heavily on the following three packages:
 
-* [numpy](https://ucsb-cs111.github.io/topics/numpy/): Numerical computing with arrays and matrices
-* [scipy](https://ucsb-cs111.github.io/topics/scipy/): More advanced numerical computing, including sparse matrices
-* [matplotlib](https://ucsb-cs111.github.io/topics/matplotlib/): Plotting and visualization
+* [numpy](https://docs.scipy.org/doc/numpy/reference/): Numerical computing with arrays and matrices
+* [scipy](https://docs.scipy.org/doc/scipy/reference/): More advanced numerical computing, including sparse matrices
+* [matplotlib](https://matplotlib.org/contents.html): Plotting and visualization
 
 We will use [Jupyter notebooks](https://jupyter.org/) to run Python interactively, in a web browser, both for demos 
 in class and for your programming assignments. I strongly recommend that you set up your own laptop or computer to
@@ -21,8 +22,10 @@ January 8.
 It's also possible to run Python in a Jupyter notebook in a web browser at CSIL. You can go that route if it
 works better for you, but I think it's much easier to run everything on your own computer. (That's what I do.)
 
-Previous versions of this course used [MATLAB](https://ucsb-cs111.github.io/topics/matlab/), which is a proprietary
-interactive numerical software package (UCSB has a campuswide license) that's widely used in engineering.
+Previous versions of this course used [MATLAB](https://www.mathworks.com/products/matlab.html), which is a proprietary
+interactive numerical software package
+([UCSB has a campuswide license](https://www.mathworks.com/academia/tah-portal/university-california-santa-barbara-40469638.html))
+that's widely used in engineering.
 Numpy is designed to look a lot like Matlab. They both use
 arrays and matrices as their main data structures; the advantage of numpy is that you also have all of Python available.
 If you already know Matlab, here is
