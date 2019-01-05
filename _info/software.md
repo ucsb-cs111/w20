@@ -25,6 +25,6 @@ Previous versions of this course used [MATLAB](https://ucsb-cs111.github.io/topi
 interactive numerical software package (UCSB has a campuswide license) that's widely used in engineering.
 Numpy is designed to look a lot like Matlab. They both use
 arrays and matrices as their main data structures; the advantage of numpy is that you also have all of Python available.
-If you already know Matlab, 
-[here](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) is a cheat sheet for translating Matlab
-into numpy. The matplotlib library that we will use for plotting also has a lot of similarity to Matlab's plotting routines.
+If you already know Matlab, here is
+[a cheat sheet for translating Matlab into numpy](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html).
+The matplotlib library that we will use for plotting also has a lot of similarity to Matlab's plotting routines.
