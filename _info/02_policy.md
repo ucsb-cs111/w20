@@ -21,7 +21,6 @@ LaTeX, which is the standard markup language for mathematical
 documents. To get you started, [here is the LaTeX](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.tex) for the [review quiz](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.pdf).
 
 
-When a homework exercise requires a Python program, turn in four things:
 
 1. the Matlab program listing (`.m` files; use `verbatim` mode in LaTeX)
 2. the relevant lines from the diary of your Matlab session running the program
