@@ -1,7 +1,7 @@
 ---
 title: "Assignment Calendar"
 layout: calendar
-permalink: /w19/info/calendar/
+permalink: /info/calendar/
 ---
 
 
