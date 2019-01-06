@@ -1,7 +1,7 @@
 ---
 title: "Assignment Calendar"
 layout: calendar
-permalink: /calendar/
+permalink: /info/calendar/
 ---
 
 
