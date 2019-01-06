@@ -10,12 +10,11 @@ title: Topics
 * Systems of linear equations.
 * Solving linear systems by LU factorization with pivoting.
 * Solving symmetric positive definite linear systems by conjugate gradients.
-* Error and residual in linear systems.
+* Least squares data fitting, QR factorization.
+* Sparse matrices and graphs.
+* Eigenvalues and eigenvectors.
 * Matrix condition number.
 * Floating-point arithmetic.
-* Least squares data fitting.
-* Eigenvalues and eigenvectors of symmetric matrices.
-* Sparse matrices and graphs.
 * Standard form of ordinary differential equations (ODEs).
 * Forward and backward Euler and BS23 algorithms for ODEs.
 * Basic elliptic partial differential equations (PDEs): Poisson / Laplacian / heat equation.

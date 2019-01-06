@@ -1,9 +1,9 @@
 ---
-title: Textbooks
+title: Textbooks, Readings, Videos
 layout: default
 ---
 
-# Textbook:
+# Textbooks:
 
 One textbook we will use is: [Numerical Computing with Matlab](https://ucsb-cs111.github.io/textbooks/ncm/), by Cleve Moler.   This textbook uses MATLAB rather than Python,
 however, it is still an excellent reference for the topics we will study.
