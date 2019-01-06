@@ -1,7 +1,7 @@
 ---
-num: "lect04"
-lecture_date: 2019-01-16
-desc: "Solving Ax=b by Jacobi and conjugate gradient"
+num: "lect08"
+lecture_date: 2019-02-04
+desc: "Matrix condition number and norm"
 ready: false
 ---
 

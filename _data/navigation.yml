@@ -31,20 +31,11 @@ offerings:
         baseurl: /s19
 
 offering_links:
-  - title: Lect
-    url: /lectures_list/
-    description: "Lectures"
-  - title: Hwk
-    url: /hwk_list/
-    description: "Homework Assignments"
-  - title: Exams
-    url: /exam_list/
-    description: "Exams"
-  - title: Cal
+  - title: Calendar
     url: /info/calendar/
     description: "Assignment Calendar"
   - title: Piazza
-    url: https://piazza.com
+    url: https://piazza.com/ucsb/winter2019/cs111
     description: "Q&A Forum"
   - title: GradeScope
     url: https://gradescope.com

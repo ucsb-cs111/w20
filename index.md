@@ -16,7 +16,6 @@ title: UCSB CS111
  </div>
 </div>
 
-
 {% include collapse-button.html label="Lecture Notes and Files" id="lectures" %}
 <div class="collapse" id="lectures">
  <div class="card card-body" markdown="1">
@@ -37,5 +36,3 @@ title: UCSB CS111
   {%include exam_table.html %}
  </div>
 </div>
-
-

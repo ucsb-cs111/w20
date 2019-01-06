@@ -1,15 +1,12 @@
 ---
 num: "lect03"
 lecture_date: 2019-01-14
-desc: "topic goes here"
+desc: "Solving Ax=b by LU factorization"
 ready: false
 ---
 
 * {% include lecture_files.html %}
 
-# Topics
+# Outline
 
-TODO: Fill this in
-
-
-
+TODO: fill in outline for this lecture
