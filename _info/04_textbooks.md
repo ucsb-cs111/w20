@@ -8,7 +8,7 @@ layout: default
 I will assign readings from various sources online during the quarter.
 Some readings (and homework problems) will be from the book
 [Numerical Computing with Matlab](https://ucsb-cs111.github.io/textbooks/ncm/), 
-by Cleve Moler.   
+by Cleve Moler.
 This textbook uses MATLAB rather than Python, but it's still a good reference
 for several of the topics we will study.
 The book has a [web site](http://www.mathworks.com/moler/index_ncm.html),
