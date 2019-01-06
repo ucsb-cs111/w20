@@ -5,12 +5,12 @@ layout: default
 
 # Grade weights
 
-|Homework assignments | 30% |
-|First midterm        | 20% |
-|Second midterm       | 20% |
-|Final exam           | 30% |
+|Homework assignments  | 30% |
+|First midterm         | 20% |
+|Second midterm        | 20% |
+|Final exam            | 30% |
 
-# Homework policy
+# Homework policy (under construction, don't believe this yet)
 
 There will be a homework assignment every week. You may talk to each
 other about the assignment, but what you submit must be your own work. 
@@ -19,8 +19,6 @@ All homework must be submitted in hard copy, on paper.
 We strongly encourage you to write up your homework using
 LaTeX, which is the standard markup language for mathematical
 documents. To get you started, [here is the LaTeX](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.tex) for the [review quiz](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.pdf).
-
-FROM HERE ON IS UNDER CONSTRUCTION, DON'T BELIEVE IT YET
 
 1. the Matlab program listing (`.m` files; use `verbatim` mode in LaTeX)
 2. the relevant lines from the diary of your Matlab session running the program
