@@ -9,4 +9,12 @@ ready: false
 
 # Outline
 
-TODO: fill in outline for this lecture
+Course logistics and policy.
+
+How does this course fit in anyway?
+
+Matrices and systems of linear equations.
+
+An example: The temperature problem.
+
+Iteration: The fractal fern.
