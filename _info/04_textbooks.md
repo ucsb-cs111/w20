@@ -3,7 +3,7 @@ title: Textbooks, Readings, Videos
 layout: default
 ---
 
-# Textbooks:
+# Textbooks
 
 I will assign readings from various sources online during the quarter.
 Some readings (and homework problems) will be from the book
@@ -24,4 +24,12 @@ for free (talk to me if you want to join).
 
 Reading assignments are given with each lecture, in the lecture files.
 Also, here is a list of all the reading assignments.
+
+# Videos and other things
+
+Professor Gil Strang of MIT has videotaped his terrific
+[lectures on linear algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
+I recommend watching the first few lectures, which are a great way to
+review the background for the first half of CS 111.
+
 
