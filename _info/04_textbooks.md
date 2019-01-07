@@ -16,9 +16,9 @@ from which you can download individual chapters.
 If you want to buy a hard copy, you can
 order it from [SIAM](http://ec-securehost.com/SIAM/ot87.html), 
 the Society for Industrial and Applied Mathematics.
-To get the SIAM member discount on the book, talk to me
-about becoming (for free) a 
-[member of SIAM](http://www.siam.org/membership/individual/free.php).
+As a UCSB student you can become a
+[member of SIAM](http://www.siam.org/membership/individual/free.php)
+for free (talk to me if you want to join).
 
 # Reading assignments
 
