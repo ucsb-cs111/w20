@@ -15,6 +15,15 @@ layout: default
 There will be a homework assignment every week. You may talk to each
 other about the assignment, but what you submit must be your own work. 
 
+Homework is due on Fridays no later than 5:00 pm. 
+You may turn in hardcopy homework to the CS 111 homework box 
+in the Computer Science mailroom; or you may bring it to class 
+on the Wednesday before the Friday due date; or you may submit
+a PDF file no later than 5pm Friday.
+<span style="color:red">No late homework will be accepted
+under any circumstances</span>, but I will drop your two lowest
+homework grades.
+
 You may submit your homework either in hardcopy (on paper) or
 as a PDF file.
 I strongly encourage you to write up your homework using
@@ -33,15 +42,6 @@ we won't regrade homework if it's not explained.
 (The easy way to do both (2) and (3) is to print your Jupyter notebook to pdf
 and include it in your LaTex file.)
 4. Any figures or plots you produced (save figures as pdf's and include in LaTex).
-
-Homework is due on Fridays no later than 5:00 pm. 
-You may turn in hardcopy homework to the CS 111 homework box 
-in the Computer Science mailroom; or you may bring it to class 
-on the Wednesday before the Friday due date; or you may submit
-a PDF file no later than 5pm Friday.
-<span style="color:red">No late homework will be accepted
-under any circumstances</span>, but I will drop your two lowest
-homework grades.
 
 If you have questions about grading of homework, you must talk to the 
 grader or the t.a. first. If you are unable to reach an agreement, 
