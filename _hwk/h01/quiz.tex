@@ -1,0 +1,108 @@
+\documentclass[11pt]{article}
+
+\newcommand{\numpy}{{\tt numpy}}    % tt font for numpy
+
+\topmargin -.5in
+\textheight 9in
+\oddsidemargin -.25in
+\evensidemargin -.25in
+\textwidth 7in
+
+\begin{document}
+
+$$\mbox{\Large \bf CS 111: Review Quiz: Due by 5:00pm Friday, January 11}$$
+
+\medskip
+
+{\bf Note: You will get full credit for this quiz just by handing it in.}
+The purpose of the quiz is to review some of the math background
+for the class, and to help you decide if there is anything you want to 
+brush up on.  If any of these questions baffles you,
+it will be easier to pick up the concept right now than struggle with it
+later.  The t.a.s will answer questions about the quiz in discussion 
+section on January 15.
+
+
+
+\begin{enumerate}
+
+\item
+Let
+$$ A = \left(
+\begin{array}{ccc}
+3 & -1 & 2 \\ 	
+0 & 1 & 2 \\ 
+1 & 0 & -1 \\
+\end{array} 
+\right). $$
+What is $A^T$?  What is $A^2$?  What is $A^TA$?
+(Do these computations both by hand and with \numpy.)
+
+\item
+The notation $||x||_2$ means the Euclidean norm (also called the 2-norm,
+or just the length) of the vector $x$.  
+What is $||(3, 1, 4, 1, 5)^T||_2$?
+
+\item
+Consider the following system of three equations in three unknowns.
+\begin{eqnarray}
+ 2x_1 - 3x_2 + x_3  & =  & 1 \\
+ 2x_2 + 3x_3  & =  & 7 \\
+ x_1 + x_3  & = & 4 
+\end{eqnarray}
+First write this system in the form $Ax=b$, 
+where $A$ is a matrix and $x$ and $b$ are vectors. 
+Second, write two lines of \numpy\ code that use {\tt np.array()} to
+create $A$ and $b$ as \numpy\ arrays.
+
+\item
+What vector $x$ solves the system above? 
+
+\item
+Write down a 2-by-2 matrix $A$ and a 2-vector $b$ such that $Ax=b$ has no 
+solution.  Explain in a sentence why there are no solutions.
+
+\item
+Write down a 2-by-2 matrix $A$ and a 2-vector $b$ such that $Ax=b$ has 
+more than one solution.  Give two different solutions.
+
+\item
+Is there a 2-by-2 matrix $A$ and a 2-vector $b$ such that $Ax=b$ has
+exactly two solutions?  Why or why not?
+
+\item
+Recall that a number $\lambda$ is an {\em eigenvalue} 
+of a matrix $A$ if there is some vector $x$ 
+(an {\em eigenvector}) for which $Ax = \lambda x$.
+Give an eigenvalue of the following matrix, and a corresponding eigenvector.
+$$ A = \left(
+\begin{array}{cc}
+4 & -1 \\ 	
+-1 & 4 \\
+\end{array} 
+\right). $$
+
+\item
+If $f(x)=7x^3-2x^2+4x-5$, what is $f'(x)$, the derivative of $f(x)$?
+
+\item
+If $z = xe^{y/2}$, what is $\partial z / \partial x$?
+What is $\partial z / \partial y$?
+
+\item
+If $f'(x) = x^2 + \sin x$, what is $f(x)$?
+
+\item
+The height in feet of a bullet fired straight up is
+given by $h=1280t-16t^2$, where $t$ is in seconds.
+What is the maximum height the bullet will reach? 
+When will it hit the ground?
+
+\item
+Suppose $y$ is a function of $x$ that satisfies
+$dy/dx = xy$, and also suppose $y=1$ when $x=0$.
+Write $y$ as a function of $x$.
+
+\end{enumerate}
+
+\end{document}

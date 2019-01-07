@@ -2,7 +2,7 @@
 num: "lect01"
 lecture_date: 2019-01-07
 desc: "Introduction; Ax=b: systems of linear equations"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}
@@ -11,10 +11,10 @@ ready: false
 
 Course logistics and policy.
 
-How does this course fit in anyway?
+Where does this course fit in anyway?
 
 Matrices and systems of linear equations.
 
 An example: The temperature problem.
 
-Iteration: The fractal fern.
+An example: The fractal fern.
