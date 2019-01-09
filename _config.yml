@@ -74,6 +74,10 @@ collections:
     output: true
     permalink: /lectures/:path/
     ready: false
+  lectures:
+    output: true
+    permalink: /discussions/:path/
+    ready: false
 
 defaults:
   -
