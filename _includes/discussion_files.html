@@ -1,0 +1,1 @@
+{%- capture mm_dot_dd -%}{%- if include.date -%}{{ include.date | date: "%m.%d" }}{%- else -%}{{ page.lecture_date | date: "%m.%d"}}{%- endif -%}{%- endcapture -%}<a href="{{site.lecture_code.url}}/tree/master/{{mm_dot_dd}}">Lecture Files</a>
