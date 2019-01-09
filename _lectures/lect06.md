@@ -2,7 +2,7 @@
 num: "lect06"
 lecture_date: 2019-01-28
 desc: "Graphs and matrices; PageRank"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}

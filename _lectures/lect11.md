@@ -2,7 +2,7 @@
 num: "lect11"
 lecture_date: 2019-02-20
 desc: "ODEs: algorithms"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}

@@ -2,7 +2,7 @@
 num: "lect12"
 lecture_date: 2019-02-25
 desc: "ODEs: stiff problems"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}

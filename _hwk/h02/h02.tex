@@ -1,0 +1,119 @@
+\documentclass[11pt]{article}
+
+\newcommand{\numpy}{{\tt numpy}}    % tt font for numpy
+
+\topmargin -.75in
+\textheight 9in
+\oddsidemargin -.25in
+\evensidemargin -.25in
+\textwidth 7in
+
+\begin{document}
+
+$$\mbox{\Large \bf CS 111: Homework 2: Due by 5:00pm Friday, January 18}$$
+
+\par\bigskip
+{\bf 1.}
+Consider the code for the temperature problem in
+{\tt Temperature.ipynb}, in the Jan 7 lecture files,
+especially the routines {\tt make\_A()} and {\tt make\_b()}
+that create the matrix $A$ and right-hand side $b$.
+Let $k=100$.
+
+\par\medskip
+{\bf 1a.}
+How many elements are there in $b$?
+
+\par\medskip
+{\bf 1b.}
+Considering all possible choices for the boundary temperatures,
+what is the largest number of elements of $b$ that could possibly 
+be nonzero? 
+
+\par\medskip
+{\bf 1c.}
+Explain why the rest of the elements of $b$ are zero, no matter
+what the boundary temperatures are.
+
+\par\bigskip
+{\bf 2.}
+Experiment with the temperature problem, using different ways
+of setting the boundary conditions. Make a plot of the most
+interesting result that you get (in your opinion), and explain
+how you got it. If you want (not required) you can experiment
+with {\tt matplotlib} to make a more interesting plot of your
+result, too. (The CS 111 logo on the course web page was obtained 
+this way in 2010; maybe we can get a new logo this year!)
+
+\par\bigskip
+{\bf 3.}
+Write the following matrix in the form $A=LU$, 
+where $L$ is a unit lower triangular matrix
+(that is, a lower triangular matrix with ones on the diagonal) 
+and $U$ is an upper triangular matrix.
+$$A =
+   \left(
+   \begin{array}{ccc}
+    4 & -1 & -1 \\ 	
+   -1 &  4 & -1 \\ 
+   -1 & -1 &  4 \\
+   \end{array} \right)
+$$
+
+\par\bigskip
+{\bf 4.}
+The following three statements are all {\bf false}. For each one, 
+give a counterexample consisting of a 3-by-3 matrix or matrices, 
+and show the computation that proves that the statement fails.
+
+\par\medskip
+{\bf 4a.}
+If $P$ is a permutation matrix and $A$ is any matrix, then $PA=AP$.
+
+\par\medskip
+{\bf 4b.}
+If matrix $A$ is nonsingular, then it has a factorization $A=LU$
+where $L$ is lower triangular and $U$ is upper triangular.
+
+\par\medskip
+{\bf 4c.}
+The product of two symmetric matrices is a symmetric matrix.
+
+\par\bigskip
+{\bf 5a.} Consider the permutation matrix 
+$$P =
+   \left(
+   \begin{array}{cccc}
+    0 & 1 & 0 & 0 \\ 	
+    0 & 0 & 0 & 1 \\ 	
+    0 & 0 & 1 & 0 \\ 	
+    1 & 0 & 0 & 0 \\ 	
+   \end{array} \right)
+$$
+Find a 4-element permutation vector {\tt v = np.array(something)}
+such that, for {\em every}\, 4-by-4 matrix $A$, 
+we have {\tt A[v,:] == P @ A}.
+Test your answer by running a few lines of Python, 
+and turn in the result.
+
+\par\medskip
+{\bf 5b.} For the same $P$, 
+find a 4-element permutation vector {\tt w = np.array(something)}
+such that, for {\em every}\, 4-by-4 matrix $A$, 
+we have {\tt A[:,w] == A @ P}. 
+Test your answer and turn in the result.
+
+\par\bigskip
+{\bf 6.}
+Write {\tt Usolve()}, analogous to {\tt Lsolve()} in 
+the Jan 9 lecture file {\tt LUsolve.ipynb},
+to solve an upper triangular system $Ux=y$. 
+Warning: Notice that, unlike in {\tt Lsolve()}, 
+the diagonal elements of $U$ don't have to be equal to one.
+Test your answer, both by itself and with {\tt LUsolve()},
+and turn in the result.
+Hint: Loops can be run backward in Python, 
+say from $n-1$ down to $0$, by writing
+$$\mbox{\tt for i in reversed(range(n)):}$$
+
+\end{document}

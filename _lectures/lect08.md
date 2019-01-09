@@ -1,8 +1,8 @@
 ---
 num: "lect08"
 lecture_date: 2019-02-04
-desc: "Matrix condition number and norm"
-ready: false
+desc: "How floating-point works"
+ready: true
 ---
 
 * {% include lecture_files.html %}

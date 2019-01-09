@@ -2,7 +2,7 @@
 num: "lect10"
 lecture_date: 2019-02-13
 desc: "Ordinary differential equations (ODEs)"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}
