@@ -5,7 +5,7 @@ desc: "Anaconda, jupyter, matplotlib"
 ready: true
 ---
 
-* {% include lecture_files.html %}
+* {% include discussion_files.html %}
 
 # Outline
 
