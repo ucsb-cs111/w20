@@ -1,6 +1,6 @@
 ---
 num: "disc01"
-lecture_date: 2019-01-08
+discussion_date: 2019-01-08
 desc: "Anaconda, jupyter, matplotlib"
 ready: true
 ---

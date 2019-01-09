@@ -1,0 +1,26 @@
+<table class="asn_table">
+
+<tr>
+  <th class="asn_desc">lecture date</th>
+  <th class="asn_desc" >description</th>
+  <th class="asn_ready">ready?</th>
+  <th class="asn_desc" >notes</th>
+  <th class="asn_files">files</th>
+</tr>
+
+{% for disc in site.discussions %}
+ 
+<tr class={% if disc.ready %}"ready"{% else %}"not-ready"{% endif %} >
+  <td class="disc_num" >{{disc.discussion_date | date: "%a %b %d" }}</td>
+  <td class="disc_desc" >{{disc.desc }}</td>
+  <td class="disc_ready">{{disc.ready}}</td>
+  <td class="disc_num" ><a href="{{disc.url | relative_url}}">{{disc.num}}</a></td>
+  <td class="disc_num" >{% include discussion_files.html date=lect.discussion_date %}</td>
+</tr>
+
+{% if disc.last_before %}
+<tr><th colspan="5">{{disc.last_before}}</th></tr>
+{% endif %}
+
+{% endfor %}
+</table>

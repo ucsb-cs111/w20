@@ -23,6 +23,13 @@ title: UCSB CS111
  </div>
 </div>
 
+{% include collapse-button.html label="Discussion Section Notes and Files" id="discussion" %}
+<div class="collapse" id="discussion">
+ <div class="card card-body" markdown="1">
+   {%include discnot_table.html %}
+ </div>
+</div>
+
 {% include collapse-button.html label="Homework" id="hwk" %}
 <div class="collapse" id="hwk">
  <div class="card card-body">
