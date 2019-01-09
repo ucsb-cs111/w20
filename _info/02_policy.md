@@ -36,7 +36,7 @@ you should turn in all of the following.
 
 1. A description in English of what you did and how. Try to be brief
 but clear. If we can't understand what you did, you will lose points;
-we won't regrade homework if it's not explained.
+we won't regrade homework that was not explained well.
 2. The Python code you wrote.
 3. The output from running your Python code.
 (The easy way to do both (2) and (3) is to print your Jupyter notebook to pdf
