@@ -15,7 +15,7 @@
   <td class="disc_desc" >{{disc.desc }}</td>
   <td class="disc_ready">{{disc.ready}}</td>
   <td class="disc_num" ><a href="{{disc.url | relative_url}}">{{disc.num}}</a></td>
-  <td class="disc_num" >{% include discussion_files.html date=lect.discussion_date %}</td>
+  <td class="disc_num" >{% include discussion_files.html date=disc.discussion_date %}</td>
 </tr>
 
 {% if disc.last_before %}
