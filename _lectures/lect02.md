@@ -19,12 +19,12 @@ Understanding Ax = b in the temperature problem.
 
 Matrix and vector arithmetic in numpy.
 
-(Maybe: Another Ax = b example: The fractal fern.)
-
 Some interesting kinds of matrices: 
+   - identity matrix
    - singular and nonsingular
-   - triangular matrices
    - permutation matrices (and permutation vectors)
+   - orthogonal matrices
+   - triangular matrices
    - Gaussian elimination
    - LU factorization
    - Partial pivoting
