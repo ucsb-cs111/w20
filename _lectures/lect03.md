@@ -40,4 +40,13 @@ Solving Ax = b:
    - Solving triangular systems
    - Gaussian elimination and LU factorization
    - Partial pivoting
-
+   - Lecture codes 
+     - LUfactor() 
+     - Lsolve() 
+     - Usolve()
+   - numpy/scipy routines:
+     - npla.matrix_rank()
+     - npla.norm()
+     - npla.cond()
+     - npla.solve()
+     - linag.lu()
