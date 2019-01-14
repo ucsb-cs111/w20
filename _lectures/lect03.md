@@ -40,7 +40,7 @@ Solving Ax = b:
    - Solving triangular systems
    - Gaussian elimination and LU factorization
    - Partial pivoting
-   - Lecture codes 
+   - Lecture codes:
      - LUfactor() 
      - Lsolve() 
      - Usolve()
