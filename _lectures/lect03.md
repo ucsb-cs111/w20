@@ -49,4 +49,4 @@ Solving Ax = b:
      - npla.norm()
      - npla.cond()
      - npla.solve()
-     - linag.lu()
+     - linalg.lu()
