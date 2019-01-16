@@ -1,7 +1,7 @@
 ---
 num: "lect07"
 lecture_date: 2019-01-30
-desc: "Eigenvalues and eigenvectors"
+desc: "Fitting data by least squares with QR"
 ready: true
 ---
 

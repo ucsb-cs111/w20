@@ -1,7 +1,7 @@
 ---
 num: "lect06"
 lecture_date: 2019-01-28
-desc: "Graphs and matrices; PageRank"
+desc: "Eigenvector and applications; Graphs and matrices"
 ready: true
 ---
 
@@ -10,3 +10,9 @@ ready: true
 # Outline
 
 TODO: fill in outline for this lecture
+
+- Eigenvalues and eigenvectors
+
+- Graphs and matrices
+
+- PageRank

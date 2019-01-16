@@ -1,7 +1,7 @@
 ---
 num: "lect05"
 lecture_date: 2019-01-23
-desc: "Fitting data by least squares with QR"
+desc: "Solving Ax = b by Jacobi and conjugate gradients"
 ready: true
 ---
 
