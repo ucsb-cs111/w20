@@ -15,17 +15,14 @@ layout: default
 There will be a homework assignment every week. You may talk to each
 other about the assignment, but what you submit must be your own work. 
 
-Homework is due on Fridays no later than 5:00 pm. 
-We will be using GradeScope for homework turnins; 
-watch the instructions for individual homeworks, because we are
-still experimenting with turning in hardcopy vs submitting PDFs,
-and the detailed instructions may keep changing until we're
-satisfied.
+<b>New Turnin Rules:</b>
+Homework is due on Fridays no later than 6:00 pm. 
+You must turn in your homework online, in GradeScope, as a
+single PDF file.
+When you turn in your PDF, you must tell GradeScope which pages
+of your document contain each individual homework problem.
+Doing this correctly will be worth 2 points on the homework.
 
-You may turn in hardcopy homework to the CS 111 homework box 
-in the Computer Science mailroom; or you may bring it to class 
-on the Wednesday before the Friday due date; or you may submit
-a PDF file to GradeScope no later than 5pm Friday.
 <span style="color:red">No late homework will be accepted
 under any circumstances</span>, but I will drop your two lowest
 homework grades.
@@ -41,15 +38,16 @@ you should turn in all of the following. We may ask you to
 you to turn in your actual .ipynb Jupyter notebook file through
 the CSIL "turnin" command in addition to using GradeScope; watch
 the Piazza page for details for each particular homework assignment.
+(As of hw02, you don't have to do this yet.)
 
 1. A description in English of what you did and how. Try to be brief
 but clear. If we can't understand what you did, you will lose points;
 we won't regrade homework that was not explained well.
 2. The Python code you wrote.
-3. The output from running your Python code.
+3. The output from testing and running your Python code.
 4. Any figures or plots you produced.
 
-I encourage you to write up your homework using LaTeX, 
+I strongly encourage you to write up your homework using LaTeX, 
 which is the standard markup language for mathematical documents
 and is good to know for any future math or CS writing you may do.
 To get you started, [here is the LaTeX](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.tex) for the [review quiz](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.pdf).
