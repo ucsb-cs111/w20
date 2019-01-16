@@ -26,27 +26,26 @@ Reading it is optional for CS 111, but fun if you like the math.
 
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)
 Sections 2.1 through 2.6 (linear equations and Gaussian elimination).
-Also, NCM Problem 2.5 (Cholesky factorization) and Section 5.5 (QR factorization).
+For Cholesky factorization, see
+[NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)
+Problem 2.5 and
+[Nick Higham's overview](http://www.maths.manchester.ac.uk/~higham/papers/high09c.pdf).
 
 # Outline of today's lecture
 
 More interesting kinds of matrices:
 
    - symmetric positive definite (SPD) matrices
-   - orthogonal matrices
-   - sparse matrices
+   - (orthogonal matrices -- later!)
+   - (sparse matrices -- later!)
 
 Matrix factorizations:
 
    - A = PLU or A[p,:] = LU: LU factorization with partial pivoting of a square matrix
    - A = LL^T: Cholesky factorization of an SPD matrix
-   - A = QR: Orthogonal factorization of any matrix
    - Lecture codes:
      - LUsolve()
    - numpy/scipy routines:
      - npla.solve()       [solve Ax = b using LU, dense]
-     - spla.spsolve()     [solve Ax = b using LU, sparse]
      - linalg.lu()        [LU factorization]
      - linalg.cholesky()  [Cholesky factorization]
-     - linalg.qr()        [Orthogonal factorization]
-
