@@ -1,7 +1,7 @@
 ---
 num: "lect06"
 lecture_date: 2019-01-28
-desc: "Eigenvector and applications; Graphs and matrices"
+desc: "QR factorization and fitting data by least squares"
 ready: true
 ---
 
@@ -11,8 +11,3 @@ ready: true
 
 TODO: fill in outline for this lecture
 
-- Eigenvalues and eigenvectors
-
-- Graphs and matrices
-
-- PageRank

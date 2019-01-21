@@ -1,7 +1,7 @@
 ---
 num: "lect07"
 lecture_date: 2019-01-30
-desc: "Fitting data by least squares with QR"
+desc: "Eigenvalues, eigenvectors, graphs, and matrices"
 ready: true
 ---
 
@@ -10,3 +10,9 @@ ready: true
 # Outline
 
 TODO: fill in outline for this lecture
+
+- Eigenvalues and eigenvectors
+
+- Graphs and matrices
+
+- PageRank
