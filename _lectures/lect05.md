@@ -7,7 +7,8 @@ ready: true
 
 * {% include lecture_files.html %}
 
-For next Wednesday, read sections x-y of the NCM book.
+For next Wednesday, read sections 5.1, 5.2, and 5.5 of the
+[NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book.
 
 # References for today's lecture
 
@@ -37,4 +38,5 @@ Iterative methods for Ax = b:
      - Jsolve()
      - CGsolve()
    - numpy/scipy routines:
-     - ...
+     - spla.cg()
+
