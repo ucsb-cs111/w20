@@ -27,12 +27,10 @@ QR and least squares:
 
    - The factorization A = QR for square matrices A
    - Solving Ax = b by QR factorization
+   - The factorization A = QR for non-square matrices A
    - Least squares problems: Ax $$\approx$$ b
      - a surveying problem
-     - parametric curve fitting
-   - Solving Ax $$\approx$$ b by QR factorization
 
 numpy/scipy routines:
    - linalg.qr()
-   - npla.lstsq()
-   - np.linspace()
+   - npla.eye()
