@@ -7,9 +7,15 @@ ready: true
 
 * {% include lecture_files.html %}
 
-# Outline
+# Reading assignment
 
-TODO: fill in outline for this lecture
+(to be filled in)
+
+# References for today's lecture
+
+(to be filled in)
+
+# Outline
 
 - Eigenvalues and eigenvectors
 

@@ -7,6 +7,8 @@ ready: true
 
 * {% include lecture_files.html %}
 
+# Reading assignment
+
 For next Wednesday, read sections 5.1, 5.2, and 5.5 of the
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book.
 

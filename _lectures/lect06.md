@@ -7,7 +7,32 @@ ready: true
 
 * {% include lecture_files.html %}
 
+# Reading assignment
+
+For Wednesday, read Section 2.9 (norms and condition numbers) of the
+[NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book.
+
+# References for today's lecture
+
+Sections 5.1, 5.2, and 5.5 of the
+[NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book.
+
 # Outline
 
-TODO: fill in outline for this lecture
+Interesting matrices:
+
+   - Orthogonal matrices
+
+QR Factorization and Least-squares fitting:
+
+   - The factorization A = QR for square matrices A
+   - Solving Ax = b by QR factorization
+   - Least squares problems: Ax $$\approx$$ b
+     - a surveying problem
+     - parametric curve fitting
+   - Solving Ax $$\approx$$ b by QR factorization
+   - numpy/scipy routines:
+     - linalg.qr()
+     - npla.lstsq()
+
 

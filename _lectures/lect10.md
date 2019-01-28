@@ -7,6 +7,14 @@ ready: true
 
 * {% include lecture_files.html %}
 
+# Reading assignment
+
+(to be filled in)
+
+# References for today's lecture
+
+(to be filled in)
+
 # Outline
 
-TODO: fill in outline for this lecture
+(to be filled in)
