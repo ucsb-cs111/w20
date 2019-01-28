@@ -23,7 +23,7 @@ Interesting matrices:
 
    - Orthogonal matrices
 
-QR Factorization and Least-squares fitting:
+QR and least squares:
 
    - The factorization A = QR for square matrices A
    - Solving Ax = b by QR factorization
@@ -31,8 +31,9 @@ QR Factorization and Least-squares fitting:
      - a surveying problem
      - parametric curve fitting
    - Solving Ax $$\approx$$ b by QR factorization
-   - numpy/scipy routines:
-     - linalg.qr()
-     - npla.lstsq()
+
+numpy/scipy routines:
+   - linalg.qr()
+   - npla.lstsq()
 
 
