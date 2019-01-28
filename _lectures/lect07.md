@@ -1,7 +1,7 @@
 ---
 num: "lect07"
 lecture_date: 2019-01-30
-desc: "Eigenvalues, eigenvectors, graphs, and matrices"
+desc: "Matrix condition number and norm"
 ready: true
 ---
 
@@ -10,9 +10,3 @@ ready: true
 # Outline
 
 TODO: fill in outline for this lecture
-
-- Eigenvalues and eigenvectors
-
-- Graphs and matrices
-
-- PageRank
