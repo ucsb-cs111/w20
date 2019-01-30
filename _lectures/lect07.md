@@ -9,22 +9,30 @@ ready: true
 
 # Reading assignment
 
-(to be filled in)
+For next Monday, read Section 1.7 (floating-point arithmetic) of the
+[NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book, 
+and look at this [Wikipedia page](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) on floating-point format.
 
 # References for today's lecture
 
-(to be filled in)
+Section 2.9 (norms and condition numbers) of the
+[NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book.
 
 # Outline
 
-QR and least squares:
-
-   - Least squares problems: Ax $$\approx$$ b
-     - a surveying problem
-     - parametric curve fitting
+Finishing up QR and least squares:
    - Solving Ax $$\approx$$ b by QR factorization
+   - Parametric curve fitting
+
+Norm and condition number:
+   - Norm of a vector: l_2 (Euclidean) norm and others
+   - Condition number of a matrix
+   - Sensitivity analysis of Ax = b
+   - Norm of a matrix
 
 numpy/scipy routines:
    - linalg.qr()
    - npla.lstsq()
+   - npla.norm()
+   - npla.cond()
    - np.linspace()
