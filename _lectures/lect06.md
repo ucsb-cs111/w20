@@ -35,6 +35,6 @@ QR and least squares:
 
 numpy/scipy routines:
    - linalg.qr()
-   - npla.eye()
+   - np.eye()
    - npla.lstsq() [next time]
    - np.linspace() [next time]

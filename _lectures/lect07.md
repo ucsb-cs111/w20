@@ -26,13 +26,15 @@ Finishing up QR and least squares:
 
 Norm and condition number:
    - Norm of a vector: l_2 (Euclidean) norm and others
-   - Condition number of a matrix
-   - Sensitivity analysis of Ax = b
-   - Norm of a matrix
+   - Condition number of a matrix [next time]
+   - Sensitivity analysis of Ax = b [next time]
+   - Norm of a matrix [next time]
 
 numpy/scipy routines:
    - linalg.qr()
    - npla.lstsq()
-   - npla.norm()
-   - npla.cond()
    - np.linspace()
+   - npla.norm() [next time]
+   - npla.cond() [next time]
+
+several matplotlib routines, see in-class transcript
