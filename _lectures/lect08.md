@@ -9,12 +9,27 @@ ready: true
 
 # Reading assignment
 
-(to be filled in)
+None; do the sample midterm before section on Tuesday.
 
 # References for today's lecture
 
-(to be filled in)
+For next Monday, read Section 1.7 (floating-point arithmetic) of the
+[NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book, 
+and look at this [Wikipedia page](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) on floating-point format.
+Also, [here](https://www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3-0-ai-coprocessor/) is an interesting article on Google's TPU processor, which uses a different floating-point format.
 
 # Outline
 
-(to be filled in)
+Matrix condition number:
+   - Sensitivity analysis of Ax = b 
+   - Condition number of a matrix 
+
+Floating-point arithmetic:
+   - Machine epsilon: when 1 + x == x
+   - How the bits work
+   - Parameters of floating-point systems
+
+numpy/scipy routines:
+   - npla.cond()
+   - np.finfo(np.float64)
+
