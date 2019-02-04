@@ -32,4 +32,3 @@ Floating-point arithmetic:
 numpy/scipy routines:
    - npla.cond()
    - np.finfo(np.float64)
-
