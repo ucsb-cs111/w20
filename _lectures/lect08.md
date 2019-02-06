@@ -17,6 +17,9 @@ Section 1.7 (floating-point arithmetic) of the
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book, 
 and this [Wikipedia page](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) on floating-point format.
 
+[Here's a nice article on the IEEE 64-bit floating-point standard](https://www.johndcook.com/blog/2009/04/06/anatomy-of-a-floating-point-number/)
+by John Cook.
+
 Also, [here](https://www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3-0-ai-coprocessor/) is an interesting article on Google's TPU processor, which uses a different floating-point format.
 
 # Outline
