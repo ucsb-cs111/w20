@@ -1,7 +1,7 @@
 ---
 num: "lect12"
 lecture_date: 2019-02-25
-desc: "ODEs: stiff problems"
+desc: "ODEs: algorithms"
 ready: true
 ---
 

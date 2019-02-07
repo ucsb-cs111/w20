@@ -1,7 +1,7 @@
 ---
 num: "lect16"
 lecture_date: 2019-03-13
-desc: "PDEs: Sparse matrices and Ax=b again"
+desc: "PDEs: The time-varying heat equation"
 ready: true
 ---
 
