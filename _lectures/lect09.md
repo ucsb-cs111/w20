@@ -18,8 +18,27 @@ NCM Sections 10.1 and 10.2, and the first part of the $25 billion eigenvector pa
 
 # Outline
 
+- Interesting matrices
+  - symmetric matrices and (complex) hermitian matrices
+  - adjacency matrices of graphs
+
 - Eigenvalues and eigenvectors
+  - general matrices
+  - symmetric and hermitian matrices
 
 - Graphs and matrices
 
 - PageRank
+
+- numpy/scipy routines
+  - np.load()
+  - np.save()
+  - np.random.randn()
+  - np.count_nonzero()
+  - np.ones()
+  - np.sum()
+  - np.sort()
+  - np.argsort()
+  - linalg.eig()
+  - linalg.eigh()
+  
