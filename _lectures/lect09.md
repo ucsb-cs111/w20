@@ -28,8 +28,6 @@ NCM Sections 10.1 and 10.2, and the first part of the $25 billion eigenvector pa
 
 - Graphs and matrices
 
-- PageRank
-
 - numpy/scipy routines
   - np.load()
   - np.save()

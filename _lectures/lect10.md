@@ -19,4 +19,17 @@ and ["The $25,000,000,000 Eigenvector"](https://github.com/ucsb-cs111/w19-lectur
 
 # Outline
 
-(to be filled in)
+- Graphs and matrices
+
+- PageRank
+
+- numpy/scipy routines
+  - np.load()
+  - np.save()
+  - np.count_nonzero()
+  - np.ones()
+  - np.sum()
+  - np.sort()
+  - np.argsort()
+  - linalg.eig()
+  - sparse.eigs()
