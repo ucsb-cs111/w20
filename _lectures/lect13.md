@@ -9,12 +9,21 @@ ready: true
 
 # Reading assignment
 
-(to be filled in)
+No new reading assignment for next week.
 
 # References for today's lecture
 
-(to be filled in)
+NCM Section 7.9 (stiff ODEs)
 
 # Outline
 
-(to be filled in)
+- Local error, global error, and stability 
+
+- Stiff ODEs
+  - Example: the flame ODE
+  - Symptoms and effects of stiffness 
+  - Example: the valley walk ODE
+  - Motivation for implicit methods
+  - The backward Euler method
+  - Issues in implicit methods
+  - The Radau implicit method in scipy
