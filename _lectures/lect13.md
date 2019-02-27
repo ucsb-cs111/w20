@@ -9,7 +9,10 @@ ready: true
 
 # Reading assignment
 
-No new reading assignment for next week.
+No new reading assignment.
+Work the sample midterm problems under e02 on
+the course GitHub page, and come prepared to
+ask questions about them at Tuesday's section.
 
 # References for today's lecture
 
@@ -20,8 +23,8 @@ NCM Section 7.9 (stiff ODEs)
 - Local error, global error, and stability 
 
 - Stiff ODEs
-  - Example: the flame ODE
   - Symptoms and effects of stiffness 
+  - Example: the flame ODE
   - Example: the valley walk ODE
   - Motivation for implicit methods
   - The backward Euler method
