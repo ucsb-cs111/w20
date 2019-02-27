@@ -31,7 +31,8 @@ Requests for regrades may be submitted through GradeScope.
 <span style="color:red">The statute of
 limitations for regrades is one week<span>&mdash;that is, any requests
 for regrades must be made no later than one week after the homework
-or exam grades were made available in GradeScope.
+grades were made available in GradeScope.
+</span>
 
 When a homework problem requires writing some Python code, 
 you should turn in all of the following. We may ask you to
@@ -51,3 +52,21 @@ I strongly encourage you to write up your homework using LaTeX,
 which is the standard markup language for mathematical documents
 and is good to know for any future math or CS writing you may do.
 To get you started, [here is the LaTeX](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.tex) for the [review quiz](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.pdf).
+
+# Exam policy
+
+There will be two midterms in class and a final exam during finals week.
+Syllabi and sample problems will be made available for each midterm,
+by the weekend before the midterm.
+The final exam will be cumulative, covering all the topics in the course.
+
+For the exams you may use your own paper notes (no limit on amount),
+but you may not use phones, pads, or electronic devices of any kind.
+
+We will grade the exams in GradeScope, 
+and requests for regrades may be submitted through GradeScope.
+Regrade requests for the midterms must be made within one week.
+<span style="color:red">Regrade requests for the final exam must
+be made within 24 hours after the exam grades are made available
+in GradeScope.
+</span>
