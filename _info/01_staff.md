@@ -18,7 +18,7 @@ layout: default
 
 <b><a href="https://www.linkedin.com/in/pushkar-shukla-572ab551/">Pushkar Shukla</a></b> 
 * Email: <A HREF="mailto:pushkarshukla@ucsb.edu">pushkarshukla@ucsb.edu</A><BR>
-* Office hours: Monday and Thursday 3:00-5:00pm, CS Trailer
+* Office hours: Monday and Thursday 3:30-5:30pm, CS Trailer
 
 # Reader
 
