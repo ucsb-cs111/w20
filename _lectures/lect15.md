@@ -9,12 +9,26 @@ ready: true
 
 # Reading assignment
 
-(to be filled in)
+This week, read NCM sections 11.1-11.3.
 
 # References for today's lecture
 
-(to be filled in)
+NCM sections 11.1 and 11.2.
 
 # Outline
 
-(to be filled in)
+- Examples of PDEs
+  - Gallery of great PDEs
+  - The Poisson equation (steady-state temperature problem)
+  - The diffusion equation (time-varying temperature problem)
+  - The wave equation (second-order derivatives in time)
+- Approximating derivatives by finite differences
+- The discrete Laplace operator
+- Poisson's equation; the temperature problem as a PDE
+  - In one (space) dimension
+  - In two and three dimensions
+- The diffusion equation in one dimension
+  - Constant coefficients: The heated bar
+  - Variable coefficients: The insulated bar
+  - A Neumann boundary condition
+  - Animations of matplotlib plots
