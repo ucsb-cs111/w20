@@ -1,7 +1,7 @@
 ---
 num: "lect16"
 lecture_date: 2019-03-13
-desc: "PDEs: The time-varying heat equation"
+desc: "PDEs: The wave equation"
 ready: true
 ---
 
