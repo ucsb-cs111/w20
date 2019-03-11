@@ -29,6 +29,6 @@ NCM sections 11.1 and 11.2.
   - In two and three dimensions
 - The diffusion equation in one dimension
   - Constant coefficients: The heated bar
-  - Variable coefficients: The insulated bar
-  - A Neumann boundary condition
-  - Animations of matplotlib plots
+  - Variable coefficients: The insulated bar 
+  - A Neumann boundary condition [next time]
+  - Animations of matplotlib plots [next time]
