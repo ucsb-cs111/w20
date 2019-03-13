@@ -31,7 +31,9 @@ Requests for regrades may be submitted through GradeScope.
 <span style="color:red">The statute of
 limitations for regrades is one week<span>&mdash;that is, any requests
 for regrades must be made no later than one week after the homework
-grades were made available in GradeScope.
+grades were made available in GradeScope. 
+The last homeworks in the course will have an earlier deadline for
+regrade requests, which will be announced on Piazza.
 </span>
 
 When a homework problem requires writing some Python code, 
@@ -64,9 +66,10 @@ For the exams you may use your own paper notes (no limit on amount),
 but you may not use phones, pads, or electronic devices of any kind.
 
 We will grade the exams in GradeScope, 
-and requests for regrades may be submitted through GradeScope.
-Regrade requests for the midterms must be made within one week.
-<span style="color:red">Regrade requests for the final exam must
-be made within 24 hours after the exam grades are made available
-in GradeScope.
-</span>
+and requests for regrades must be submitted through GradeScope.
+The deadlines for submitting regrade requests are as follows:
+- Regrade requests for midterm 1 must be made by 1pm Monday, February 18.
+- Regrade requests for midterm 2 must be made by noon Monday, March 18.
+- Regrade requests for the final exam must be made by midnight Thursday,
+March 21.
+
