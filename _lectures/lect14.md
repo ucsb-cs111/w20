@@ -1,8 +1,8 @@
 ---
 num: "lect14"
-lecture_date: 2019-03-04
+lecture_date: 2020-03-04
 desc: "Neural networks (Pushkar Shukla)"
-ready: true
+ready: false
 ---
 
 * {% include lecture_files.html %}

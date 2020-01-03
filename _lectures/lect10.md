@@ -1,8 +1,8 @@
 ---
 num: "lect10"
-lecture_date: 2019-02-13
+lecture_date: 2020-02-13
 desc: "Eigenvalues, eigenvectors, graphs, and matrices"
-ready: true
+ready: false
 ---
 
 * {% include lecture_files.html %}

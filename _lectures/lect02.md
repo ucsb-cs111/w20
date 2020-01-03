@@ -1,8 +1,8 @@
 ---
 num: "lect02"
-lecture_date: 2019-01-09
+lecture_date: 2020-01-09
 desc: "Interesting matrices"
-ready: true
+ready: false
 ---
 
 * {% include lecture_files.html %}

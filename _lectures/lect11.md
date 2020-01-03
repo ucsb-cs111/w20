@@ -1,8 +1,8 @@
 ---
 num: "lect11"
-lecture_date: 2019-02-20
+lecture_date: 2020-02-20
 desc: "Ordinary differential equations (ODEs)"
-ready: true
+ready: false
 ---
 
 * {% include lecture_files.html %}

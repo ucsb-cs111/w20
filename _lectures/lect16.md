@@ -1,8 +1,8 @@
 ---
 num: "lect16"
-lecture_date: 2019-03-13
+lecture_date: 2020-03-13
 desc: "PDEs: The wave equation"
-ready: true
+ready: false
 ---
 
 * {% include lecture_files.html %}
