@@ -5,37 +5,33 @@ plugins:
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
 url: https://ucsb-cs111.github.io # the base hostname & protocol for your site
-baseurl: "/w19"  # the subpath of your site, e.g. "/blog"
+baseurl: "/w20"  # the subpath of your site, e.g. "/blog"
 
 course: "CS111"
 course_title: "Introduction to Computational Science"
-title: "UCSB CS111 W19"
-github_url: https://github.com/ucsb-cs111/w19
-qtr: "W19"
-quarter: "Winter 2019"
+title: "UCSB CS111 W20"
+github_url: https://github.com/ucsb-cs111/w20
+qtr: "W20"
+quarter: "Winter 2020"
 
 lecture_code:
-   url: https://github.com/ucsb-cs111/w19-lecture-files/
+   url: https://github.com/ucsb-cs111/w20-lecture-files/
 
 start_week: 1
-start_date: 2019-01-06 
+start_date: 2020-01-05 
 num_weeks: 10
 extra_exam_week: true
 
 cal_dates: >
   [
-    {"label":"W19 official start date", "date":"2019-01-07" },
-    {"label":"W19 1st day of instruction", "date":"2019-01-07" },	
-    {"label":"Univ Holiday", "date":"2019-01-21" },
-    {"label":"Drop deadline (no W grade)","date":"2019-02-04" },
-    {"label":"Univ Holiday", "date":"2019-02-18" },
-    {"label":"W19 instruction ends", "date":"2019-03-15" },
-    {"label":"W19 finals start", "date":"2019-03-16" },
-    {"label":"W19 finals end", "date":"2019-03-22" },
-    {"label":"W19 quarter ends", "date":"2019-03-22" }
+    {"label":"W20 1st day of instruction", "date":"2019-09-26" },	
+    {"label":"Univ Holiday", "date":"2020-01-20" },
+    {"label":"Univ Holiday", "date":"2020-02-17" },
+    {"label":"W20 instruction ends", "date":"2020-03-13" },
+    {"label":"W20 finals start", "date":"2020-03-14" },
+    {"label":"W20 finals end", "date":"2020-03-20" },
+    {"label":"W20 qtr ends", "date":"2020-03-20" }
   ]
-
-
 
 
 kramdown:
@@ -49,7 +45,6 @@ exclude:
   - 'jekyll.sh'
 include:
   - '_pages'
-
 
   
 timezone: America/Los_Angeles
