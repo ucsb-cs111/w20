@@ -15,7 +15,7 @@ production_url: https://ucsb-cs111.github.io
 # they come from, / for main site, and /f18, /s19, etc for child sites.
 
 home:
-   title: UCSB CS56
+   title: UCSB CS111
    url: /
    baseurl: /
 
@@ -26,8 +26,6 @@ main_dropdown:
        url: /topics/
      - title: Resources
        url: /resources/
-     - title: Tutorials
-       url: /tutorials/
      - title: Textbooks
        url: /textbooks/       
 
