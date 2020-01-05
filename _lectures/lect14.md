@@ -7,5 +7,11 @@ ready: false
 
 * {% include lecture_files.html %}
 
-Pushkar Shukla, guest speaker.
+# Reading assignment
+
+
+# References for today's lecture
+
+
+# Outline
 

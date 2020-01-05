@@ -7,24 +7,11 @@ ready: false
 
 * {% include lecture_files.html %}
 
-# Reading Assignment
+# Reading assignment
 
-[NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)
-Sections 2.1 through 2.6 (linear equations and Gaussian elimination).
+
+# References for today's lecture
 
 
 # Outline
 
-Understanding Ax = b in the temperature problem.
-
-Matrix and vector arithmetic in numpy.
-
-Some interesting kinds of matrices: 
-   - identity matrix
-   - singular and nonsingular
-   - permutation matrices (and permutation vectors)
-   - orthogonal matrices
-   - triangular matrices
-   - Gaussian elimination
-   - LU factorization
-   - Partial pivoting
