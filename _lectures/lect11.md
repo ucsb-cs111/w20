@@ -1,6 +1,6 @@
 ---
 num: "lect11"
-lecture_date: 2020-02-20
+lecture_date: 2020-02-13
 desc: "Ordinary differential equations (ODEs)"
 ready: false
 ---

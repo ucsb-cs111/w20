@@ -1,6 +1,6 @@
 ---
 num: "lect15"
-lecture_date: 2020-03-11
+lecture_date: 2020-03-03
 desc: "Partial differential equations (PDEs)"
 ready: false
 ---
