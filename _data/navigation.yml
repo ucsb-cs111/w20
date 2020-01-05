@@ -41,7 +41,7 @@ offering_menus:
        url: https://github.com/ucsb-cs111/w20-lecture-files
        description: "Files from Lecture"
      - title: Piazza
-       url: https://piazza.com/ucsb/winter2020/cs111
+       url: https://piazza.com/ucsb/winter2020/cs111/home
        description: "Q&A Forum"
      - title: GradeScope
        url: https://www.gradescope.com/courses/TBA

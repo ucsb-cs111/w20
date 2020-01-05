@@ -1,2 +1,2 @@
-# w19
-Course website for CS111, W19:  https://ucsb-cs111.github.io/w19/
+# w20
+Course website for CS111, W20:  https://ucsb-cs111.github.io/w20/
