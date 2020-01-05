@@ -44,8 +44,8 @@ offering_menus:
        url: https://piazza.com/ucsb/winter2020/cs111/home
        description: "Q&A Forum"
      - title: GradeScope
-       url: https://www.gradescope.com/courses/TBA
-       description: "Quiz and Exam Grades"
+       url: https://www.gradescope.com/courses/78769
+       description: "Homework and Exam Grades"
   -
     term: S19
     baseurl: /s19
