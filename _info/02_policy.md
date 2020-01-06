@@ -15,17 +15,17 @@ layout: default
 There will be a homework assignment every week. You may talk to each
 other about the assignment, but what you submit must be your own work. 
 
-<b>New Turnin Rules:</b>
-Homework is due on Fridays no later than 6:00 pm. 
-You must turn in your homework online, in GradeScope, as a
-single PDF file.
+<b>Turnin Rules:</b>
+Homework is due on Mondays no later than 11:55 pm. 
+You must turn in your homework online, in GradeScope, 
+as a single PDF file.
 When you turn in your PDF, you must tell GradeScope which pages
 of your document contain each individual homework problem.
 Doing this correctly will be worth 2 points on the homework.
 
 <span style="color:red">No late homework will be accepted
-under any circumstances</span>, but I will drop your two lowest
-homework grades.
+under any circumstances</span>, 
+but I will drop your two lowest homework grades.
 
 Requests for regrades may be submitted through GradeScope.
 <span style="color:red">The statute of
@@ -41,7 +41,6 @@ you should turn in all of the following. We may ask you to
 you to turn in your actual .ipynb Jupyter notebook file through
 the CSIL "turnin" command in addition to using GradeScope; watch
 the Piazza page for details for each particular homework assignment.
-(As of hw02, you don't have to do this yet.)
 
 1. A description in English of what you did and how. Try to be brief
 but clear. If we can't understand what you did, you will lose points;
@@ -62,14 +61,13 @@ Syllabi and sample problems will be made available for each midterm,
 by the weekend before the midterm.
 The final exam will be cumulative, covering all the topics in the course.
 
-For the exams you may use your own paper notes (no limit on amount),
-but you may not use phones, pads, or electronic devices of any kind.
+For the exams you may bring one page of your own paper notes,
+which you must turn in with your exam.
+No other references or books are allowed.
+You may not use phones, pads, or electronic devices of any kind.
 
 We will grade the exams in GradeScope, 
 and requests for regrades must be submitted through GradeScope.
-The deadlines for submitting regrade requests are as follows:
-- Regrade requests for midterm 1 must be made by 1pm Monday, February 18.
-- Regrade requests for midterm 2 must be made by noon Monday, March 18.
-- Regrade requests for the final exam must be made by midnight Thursday,
+The deadlines for submitting regrade requests will be posted here before the exams.
 March 21.
 

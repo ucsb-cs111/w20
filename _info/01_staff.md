@@ -12,15 +12,14 @@ layout: default
 
 # Teaching assistants
 
-<b><a href="https://networkscience.igert.ucsb.edu/people/munn">Steven Munn</a></b>
-* Email: <A HREF="mailto:sjmunn@cs.ucsb.edu">sjmunn@cs.ucsb.edu</A>
-* Office hours: by appointment only
+<b><a href="https://dynamo.cs.ucsb.edu/people/jaffe">Sean Jaffe</a></b>
+* Email: <A HREF="mailto:seanjaffe1@gmail.com">seanjaffe1@gmail.com</A>
+* Office hours: TBD
 
-<b><a href="https://www.linkedin.com/in/pushkar-shukla-572ab551/">Pushkar Shukla</a></b> 
-* Email: <A HREF="mailto:pushkarshukla@ucsb.edu">pushkarshukla@ucsb.edu</A><BR>
-* Office hours: Monday and Thursday 3:30-5:30pm, CS Trailer
+<b><a href="https://shlomisteinberg.com/">Shlomi Steinberg</a></b> 
+* Email: <A HREF="mailto:ssteinberg@ucsb.edu">ssteinberg@ucsb.edu</A><BR>
+* Office hours: TBD
 
 # Reader
 
-<b><a href="https://www.linkedin.com/in/nicholasbchen/">Nick Chen</a></b>
-* Email: <A HREF="mailto:nicholasbchen@ucsb.edu">nicholasbchen@ucsb.edu</A>
+TBD

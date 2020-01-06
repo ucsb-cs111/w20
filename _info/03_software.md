@@ -16,7 +16,8 @@ We will use [Jupyter notebooks](https://jupyter.org/) to run Python interactivel
 in class and for your programming assignments. I strongly recommend that you set up your own laptop or computer to
 run Jupyter and Python 3 (and numpy, scipy, and matplotlib). 
 The easy way to do this is to download [Anaconda](https://www.anaconda.com/download), which
-will install everything you need. The t.a.s will demo the setup process in the first section, on Tuesday,
+will install everything you need. 
+The t.a.s will demo the setup process in the first section, on Wednesday,
 January 8.
 
 It's also possible to run Python in a Jupyter notebook in a web browser at CSIL. You can go that route if it
