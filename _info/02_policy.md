@@ -37,19 +37,19 @@ regrade requests, which will be announced on Piazza.
 </span>
 
 When a homework problem requires writing some Python code, 
-you should turn in all of the following. We may ask you to
-you to turn in your actual .ipynb Jupyter notebook file through
-the CSIL "turnin" command in addition to using GradeScope; watch
-the Piazza page for details for each particular homework assignment.
+you should turn in all of the following. We'll give you detailed
+instructions for turning in your .py code through the GradeScope
+autograder. 
+Watch the Piazza page for details for each particular homework assignment.
 
 1. A description in English of what you did and how. Try to be brief
 but clear. If we can't understand what you did, you will lose points;
 we won't regrade homework that was not explained well.
-2. The Python code you wrote.
-3. The output from testing and running your Python code.
+2. The Python code you wrote, through the GradeScope autograder.
+3. Your output from testing and running your Python code.
 4. Any figures or plots you produced.
 
-I strongly encourage you to write up your homework using LaTeX, 
+You will write up your homework using LaTeX, 
 which is the standard markup language for mathematical documents
 and is good to know for any future math or CS writing you may do.
 To get you started, [here is the LaTeX](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.tex) for the [review quiz](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.pdf).
