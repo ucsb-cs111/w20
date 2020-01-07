@@ -22,4 +22,5 @@ layout: default
 
 # Reader
 
-TBD
+Mayuresh Anand
+* Email: <A HREF="mailto:mayuresh@umail.ucsb.edu">mayuresh@umail.ucsb.edu<BR>
