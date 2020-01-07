@@ -2,7 +2,7 @@
 num: "lect01"
 lecture_date: 2020-01-07
 desc: "Introduction; Ax=b: systems of linear equations"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}
@@ -15,12 +15,14 @@ Sections 2.1 through 2.6 (linear equations and Gaussian elimination).
 
 # Outline
 
-Course logistics and policy.
+- Course logistics and policy.
 
-Where does this course fit in anyway?
+- Where does this course fit in anyway?
 
-Matrices and systems of linear equations.
+- Matrices and systems of linear equations.
+  - row view
+  - column view
+  - matrix view
 
-An example: The temperature problem.
+- An example: The temperature problem.
 
-An example: The fractal fern.
