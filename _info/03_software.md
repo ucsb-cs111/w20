@@ -16,7 +16,7 @@ We will use a handful of demo routines in Python that live
 [here](https://github.com/ucsb-cs111/w20-lecture-files/tree/master/cs111).
 If you put the whole cs111/ directory on your PYTHONPATH, you can import
 all the class software with "import cs111" and then call the routines as
-for example cs111.LUsolve(A,b).
+for example "x = cs111.LUsolve(A,b)".
 
 We will use [Jupyter notebooks](https://jupyter.org/) to run Python interactively, in a web browser, both for demos 
 in class and for your programming assignments. I strongly recommend that you set up your own laptop or computer to

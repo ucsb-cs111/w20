@@ -9,7 +9,7 @@ title: UCSB CS111
 
 {% include catalog_description.md %}
 
-{% include collapse-button.html label="Information" id="info-list" %}
+{% include collapse-button.html label="Information and Resources" id="info-list" %}
 <div class="collapse" id="info-list">
  <div class="card card-body">
   {% include info_list.html %}
