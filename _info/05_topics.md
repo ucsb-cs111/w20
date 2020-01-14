@@ -17,5 +17,4 @@ title: Topics
 * Floating-point arithmetic.
 * Standard form of ordinary differential equations (ODEs).
 * Forward and backward Euler and BS23 algorithms for ODEs.
-* Basic elliptic partial differential equations (PDEs): Poisson / Laplacian / heat equation.
-* Finite difference methods for PDEs: the 2D heat equation.
+* Finite difference methods for PDEs: the heat equation.

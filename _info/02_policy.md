@@ -16,12 +16,11 @@ There will be a homework assignment every week. You may talk to each
 other about the assignment, but what you submit must be your own work. 
 
 <b>Turnin Rules:</b>
-Homework is due on Mondays no later than 11:55 pm. 
+Homework is due on Mondays no later than 11:59 pm. 
 You must turn in your homework online, in GradeScope, 
 as a single PDF file.
 When you turn in your PDF, you must tell GradeScope which pages
 of your document contain each individual homework problem.
-Doing this correctly will be worth 2 points on the homework.
 
 <span style="color:red">No late homework will be accepted
 under any circumstances</span>, 
@@ -37,9 +36,9 @@ regrade requests, which will be announced on Piazza.
 </span>
 
 When a homework problem requires writing some Python code, 
-you should turn in all of the following. We'll give you detailed
-instructions for turning in your .py code through the GradeScope
-autograder. 
+you should turn in all of the following. 
+We'll give you detailed instructions for turning in your .py code 
+through the GradeScope autograder when that's required.
 Watch the Piazza page for details for each particular homework assignment.
 
 1. A description in English of what you did and how. Try to be brief
@@ -52,7 +51,9 @@ we won't regrade homework that was not explained well.
 You will write up your homework using LaTeX, 
 which is the standard markup language for mathematical documents
 and is good to know for any future math or CS writing you may do.
-To get you started, [here is the LaTeX](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.tex) for the [review quiz](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.pdf).
+To get you started, 
+[here is the LaTeX](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.tex) for the 
+[review quiz](http://www.cs.ucsb.edu/~gilbert/cs111/old/cs111Fall2010/quiz/quiz.pdf).
 
 # Exam policy
 
@@ -69,5 +70,4 @@ You may not use phones, pads, or electronic devices of any kind.
 We will grade the exams in GradeScope, 
 and requests for regrades must be submitted through GradeScope.
 The deadlines for submitting regrade requests will be posted here before the exams.
-March 21.
 
