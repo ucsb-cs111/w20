@@ -12,6 +12,12 @@ leaning heavily on the following three packages:
 * [scipy](https://docs.scipy.org/doc/scipy/reference/): More advanced numerical computing, including sparse matrices
 * [matplotlib](https://matplotlib.org/contents.html): Plotting and visualization
 
+We will use a handful of demo routines in Python that live
+[here](https://github.com/ucsb-cs111/w20-lecture-files/tree/master/cs111).
+If you put the whole cs111/ directory on your PYTHONPATH, you can import
+all the class software with "import cs111" and then call the routines as
+for example cs111.LUsolve(A,b).
+
 We will use [Jupyter notebooks](https://jupyter.org/) to run Python interactively, in a web browser, both for demos 
 in class and for your programming assignments. I strongly recommend that you set up your own laptop or computer to
 run Jupyter and Python 3 (and numpy, scipy, and matplotlib). 

@@ -37,9 +37,12 @@ offering_menus:
      - title: Calendar
        url: /info/calendar/
        description: "Assignment Calendar"
-     - title: All Lecture and Section Files
+     - title: Lecture Files
        url: https://github.com/ucsb-cs111/w20-lecture-files
        description: "Files from Lecture"
+     - title: Software from Lecture
+       url: https://github.com/ucsb-cs111/w20-lecture-files/tree/master/cs111
+       description: "Software from Lecture"
      - title: Piazza
        url: https://piazza.com/ucsb/winter2020/cs111
        description: "Q&A Forum"
