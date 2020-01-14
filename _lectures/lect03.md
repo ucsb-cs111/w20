@@ -41,7 +41,7 @@ Sections 2.1 through 2.6 (linear equations and Gaussian elimination).
   - npla.norm()
   - npla.cond()
   - npla.solve()
-  - linalg.lu()
+  - spla.lu()
 
 
 - Lecture codes:
