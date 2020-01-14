@@ -18,7 +18,8 @@ layout: default
 
 <b><a href="https://shlomisteinberg.com/">Shlomi Steinberg</a></b> 
 * Email: <A HREF="mailto:ssteinberg@ucsb.edu">ssteinberg@ucsb.edu</A><BR>
-* Office hours: Tuesdays 5-6pm and by appointment, HFH 5110.
+* Office hours: Mondays 5-6pm and by appointment, HFH 5110.
+* Extra one-time office hour: Tuesday Jan 14 5-6pm, HFH 5110.
 
 # Reader
 
