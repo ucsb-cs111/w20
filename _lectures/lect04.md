@@ -29,6 +29,7 @@ Problem 2.5 (Cholesky factorization)
 
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)
 Sections 2.1 through 2.6 (linear equations and Gaussian elimination),
+Sections 2.8 (error and residual),
 and Problem 2.5 (Cholesky factorization).
 
 
@@ -36,7 +37,7 @@ and Problem 2.5 (Cholesky factorization).
 
 - This week's big idea: Matrix Factorizations
 
-- More on solving Ax = b by LU factorization:
+- More on solving Ax = b by Gaussian elimination:
   - Residual b - Ax, residual norm
   - Details of lower triangular solve
   - Complexity analysis of LU factorization and triangular solve
@@ -50,9 +51,9 @@ and Problem 2.5 (Cholesky factorization).
 
 - numpy/scipy routines:
   - npla.norm()
-  - npla.cond()
   - npla.solve()
   - spla.lu()
+  - spla.cholesky()
 
 - Lecture codes:
   - LUfactor()
