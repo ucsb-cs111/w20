@@ -1,7 +1,7 @@
 ---
 num: "lect04"
 lecture_date: 2020-01-16
-desc: "Matrix factorizations: LU, Cholesky"
+desc: "LU factorization: error, residual, complexity, partial pivoting"
 ready: true
 ---
 
@@ -25,12 +25,9 @@ Reading it is optional for CS 111, but fun if you like the math.
 
 # References for today's lecture
 
-Problem 2.5 (Cholesky factorization) 
-
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)
 Sections 2.1 through 2.6 (linear equations and Gaussian elimination),
-Sections 2.8 (error and residual),
-and Problem 2.5 (Cholesky factorization).
+Sections 2.8 (error and residual).
 
 
 # Outline
@@ -42,18 +39,15 @@ and Problem 2.5 (Cholesky factorization).
   - Details of lower triangular solve
   - Complexity analysis of LU factorization and triangular solve
   - LU factorization with partial pivoting
-  - Permutation matrices and permutation vectors
-  - SPD matrices and Cholesky factorization
+  - Permutation vectors and permutation matrices
 
 - Interesting matrices:
   - Permutation matrices
-  - Symmetric positive definite (SPD) matrices
 
 - numpy/scipy routines:
   - npla.norm()
   - npla.solve()
   - spla.lu()
-  - spla.cholesky()
 
 - Lecture codes:
   - LUfactor()

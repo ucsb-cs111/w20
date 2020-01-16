@@ -1,7 +1,7 @@
 ---
 num: "lect08"
 lecture_date: 2020-02-04
-desc: "How floating-point works"
+desc: "Least squares; matrix condition number and norm"
 ready: false
 ---
 
