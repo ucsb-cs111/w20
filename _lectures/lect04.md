@@ -41,9 +41,11 @@ and Problem 2.5 (Cholesky factorization).
   - Details of lower triangular solve
   - Complexity analysis of LU factorization and triangular solve
   - LU factorization with partial pivoting
+  - Permutation matrices and permutation vectors
   - SPD matrices and Cholesky factorization
 
 - Interesting matrices:
+  - Permutation matrices
   - Symmetric positive definite (SPD) matrices
 
 - numpy/scipy routines:
