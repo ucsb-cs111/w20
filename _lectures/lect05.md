@@ -2,7 +2,7 @@
 num: "lect05"
 lecture_date: 2020-01-21
 desc: "Permutation vectors and matrices, SPD matrices, Cholesky"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}
