@@ -27,16 +27,16 @@ Reading it is optional for CS 111, but fun if you like the math.
 # References for today's lecture
 
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)
-Section 5.5 (QR factorization)
-and Problem 2.5 (Cholesky factorization).
+Problem 2.5 (Cholesky factorization) and
+Section 5.5 (QR factorization).
 
 # Outline
 
-- The big idea: Matrix Factorizations
-
-- More on solving Ax = b by Gaussian elimination:
+- More on matrix factorizations:
+  - Using LU factorization with partial pivoting to solve Ax = b
   - Permutation matrices and permutation vectors
-  - SPD matrices and Cholesky factorization
+  - SPD matrices, Cholesky factorization, and Ax = b
+  - Orthogonal matrices, QR factorization, and Ax = b
 
 - Interesting matrices:
   - Permutation matrices
@@ -47,7 +47,8 @@ and Problem 2.5 (Cholesky factorization).
   - npla.norm()
   - npla.solve()
   - spla.lu()
-  - spla.cholesky()
+  - npla.cholesky()
+  - npla.qr()
 
 - Lecture codes:
   - LUfactor()
