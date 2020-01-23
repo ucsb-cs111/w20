@@ -14,7 +14,8 @@ layout: default
 
 <b><a href="https://dynamo.cs.ucsb.edu/people/jaffe">Sean Jaffe</a></b>
 * Email: <A HREF="mailto:seanjaffe1@gmail.com">seanjaffe1@gmail.com</A>
-* Office hours: Thursdays 1-3pm and by appointment, CSIL.
+* Office hours: Thursdays 1-2pm and by appointment, CSIL.
+* <b> No office hours on midterm days.
 
 <b><a href="https://shlomisteinberg.com/">Shlomi Steinberg</a></b> 
 * Email: <A HREF="mailto:ssteinberg@ucsb.edu">ssteinberg@ucsb.edu</A><BR>
