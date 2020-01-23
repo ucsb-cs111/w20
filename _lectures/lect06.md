@@ -10,7 +10,7 @@ ready: true
 
 # Reading assignment
 
-Sections 5.1, through 5.5 of the
+Sections 5.1 through 5.5 of the
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book.
 
 # References for today's lecture
