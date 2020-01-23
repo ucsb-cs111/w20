@@ -36,7 +36,11 @@ Reading it is optional for CS 111, but fun if you like the math.
   - Sparse matrices
   - Symmetric positive definite (SPD) matrices, again
 - numpy/scipy routines:
-  - npla.foo()
+  - scipy.sparse.csr_matrix()
+  - scipy.sparse.linalg.spsolve()
+  - scipy.sparse.linalg.cg()
+  - np.diag()
+  - A.diag() [for any array A]
 - Lecture codes:
   - Jsolve()
   - CGsolve()
