@@ -20,26 +20,14 @@ Sections 5.1 through 5.5 of the
 
 # Outline
 
-- More on the conjugate gradient method
-- Manipulating sparse matrices in numpy/scipy
+- More on the Jacobi and conjugate gradient methods
+- Sparse matrices in numpy/scipy
+- The factorization A = QR for non-square matrices A
 - numpy/scipy routines:
   - scipy.sparse.csr_matrix()
   - scipy.sparse.linalg.spsolve()
   - scipy.sparse.linalg.cg()
+  - spla.qr() [note: this is slightly different from npla.qr]
 - Lecture codes:
   - Jsolve()
   - CGsolve()
-
-- Data fitting by least squares using QR factorization
-  - The factorization A = QR for non-square matrices A
-  - Least squares problems: Ax $$\approx$$ b
-    - a surveying problem
-    - parametric curve fitting 
-  - Solving Ax $$\approx$$ b by QR factorization
-
-- numpy/scipy routines:
-  - spla.qr() [note: this is slightly different from npla.qr]
-  - npla.lstsq() 
-  - np.linspace() 
-  - several matplotlib routines, see in-class transcript
-
