@@ -38,7 +38,7 @@ Sections 5.1 through 5.5 of the
   - Solving Ax $$\approx$$ b by QR factorization
 
 - numpy/scipy routines:
-  - linalg.qr()
+  - npla.qr()
   - npla.lstsq() 
   - np.linspace() 
   - several matplotlib routines, see in-class transcript
