@@ -26,7 +26,7 @@ title: UCSB CS111
 {% include collapse-button.html label="Discussion Section Notes and Files" id="discussions" %}
 <div class="collapse" id="discussions">
  <div class="card card-body" markdown="1">
-   {%include discnot_table.html %}
+   <a href="https://github.com/ucsb-cs111/w20-lecture-files/tree/master/discussion_section_files">Files</a>
  </div>
 </div>
 
