@@ -2,7 +2,7 @@
 num: "lect09"
 lecture_date: 2020-02-06
 desc: "Norms of vector and matrices, matrix condition number"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}
