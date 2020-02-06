@@ -22,7 +22,7 @@ Also, [here](https://www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3
 
 # References for today's lecture
 
-Section 2.9 (norms and condition numbers) of the
+Sections 2.8 (effect of roundoff errors) and 2.9 (norms and condition numbers) of the
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/) book.
 
 # Outline
