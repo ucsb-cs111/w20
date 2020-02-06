@@ -1,7 +1,7 @@
 ---
 num: "lect12"
 lecture_date: 2020-02-18
-desc: "ODEs: algorithms"
+desc: "Ordinary differential equations (ODEs)"
 ready: false
 ---
 

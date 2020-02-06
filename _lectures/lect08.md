@@ -26,14 +26,11 @@ Sections 5.1 through 5.5 of the
   - The factorization A = QR for non-square matrices A
   - Least squares problems: Ax $$\approx$$ b
     - a surveying problem
-    - parametric curve fitting 
   - Solving Ax $$\approx$$ b by QR factorization
 
 - numpy/scipy routines:
   - scipy.sparse.csr_matrix()
   - spla.qr() [note: this is slightly different from npla.qr]
   - npla.lstsq() 
-  - np.linspace() 
-  - several matplotlib routines, see in-class transcript
 
 

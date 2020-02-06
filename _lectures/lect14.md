@@ -1,7 +1,7 @@
 ---
 num: "lect14"
 lecture_date: 2020-02-25
-desc: "To be determined"
+desc: "ODEs: stiff problems"
 ready: false
 ---
 
@@ -14,4 +14,5 @@ ready: false
 
 
 # Outline
+
 
