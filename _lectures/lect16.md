@@ -1,7 +1,7 @@
 ---
 num: "lect16"
 lecture_date: 2020-03-05
-desc: "PDEs: The wave equation"
+desc: "ODEs: stiff problems"
 ready: false
 ---
 
@@ -14,4 +14,5 @@ ready: false
 
 
 # Outline
+
 

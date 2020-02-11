@@ -1,7 +1,7 @@
 ---
 num: "lect11"
 lecture_date: 2020-02-13
-desc: "Eigenvalues, eigenvectors, graphs, and matrices"
+desc: "How floating-point works"
 ready: false
 ---
 
@@ -14,4 +14,6 @@ ready: false
 
 
 # Outline
+
+
 

@@ -1,7 +1,7 @@
 ---
 num: "lect12"
 lecture_date: 2020-02-18
-desc: "Ordinary differential equations (ODEs)"
+desc: "Eigenvalues, eigenvectors, graphs, and matrices"
 ready: false
 ---
 

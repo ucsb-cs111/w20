@@ -1,7 +1,7 @@
 ---
 num: "lect15"
 lecture_date: 2020-03-03
-desc: "Partial differential equations (PDEs)"
+desc: "ODEs: algorithms"
 ready: false
 ---
 
