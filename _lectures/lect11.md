@@ -31,7 +31,7 @@ Also, [here](https://www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3
 
 - Floating-point arithmetic 
 
-- Backward error analysis and error bounds on partial pivoting
+- Backward error analysis and error bounds on partial pivoting [didn't get to this]
 
 - cs111 routines:
   - cs111.print_float64()
