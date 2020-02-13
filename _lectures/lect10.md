@@ -32,8 +32,11 @@ and 2.9 (norms and condition numbers) of the
    - Norm of a vector: (Euclidean) 2-norm, (Manhattan) 1-norm, infinity norm
    - Norm of a matrix 
    - Theorems about norms
-   - Sensitivity analysis of Ax = b 
    - Condition number of a matrix 
+   - Sensitivity analysis of Ax = b [later]
+
+- cs111 routines:
+  - cs111.hilbert()
 
 - numpy/scipy routines:
   - npla.norm()
