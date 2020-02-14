@@ -36,8 +36,10 @@ Also, [here](https://www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3
 - cs111 routines:
   - cs111.print_float64()
 
-- numpy/scipy routines:
-  - np.inf()
-  - np.nan()
+- numpy/scipy objects and routines:
+  - np.float64
+  - np.finfo()
+  - np.inf
+  - np.nan
   - np.isinf()
   - np.isnan()
