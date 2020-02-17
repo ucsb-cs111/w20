@@ -11,7 +11,9 @@ ready: true
 
 Read [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)
 Problem 2.5 (Cholesky factorization) 
-and Section 5.5 (QR factorization)
+and Section 5.5 (QR factorization),
+and the first two sections (Introduction and Computation) of Nick Higham's 
+[writeup of Cholesky factorization](https://github.com/ucsb-cs111/w20-lecture-files/blob/master/lecture_files/Higham-Cholesky.pdf).
 
 # References for today's lecture
 

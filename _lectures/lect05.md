@@ -28,7 +28,8 @@ Reading it is optional for CS 111, but fun if you like the math.
 
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)
 Problem 2.5 (Cholesky factorization) and
-Section 5.5 (QR factorization).
+Section 5.5 (QR factorization), and
+Nick Higham's [writeup of Cholesky factorization](https://github.com/ucsb-cs111/w20-lecture-files/blob/master/lecture_files/Higham-Cholesky.pdf).
 
 # Outline
 
