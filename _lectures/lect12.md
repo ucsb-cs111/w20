@@ -18,13 +18,13 @@ For next time, read the rest of ["The $25,000,000,000 Eigenvector"](https://gith
 
 2. Graphs and adjacency matrices ([Wolfram article "adjacency matrix"](http://mathworld.wolfram.com/AdjacencyMatrix.html), but note that for a directed graph each edge (v,w) only makes A[w,v] == 1, and not A[v,w]).
 
-3a. PageRank: The eigenvalue connection ([$25B paper](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf) Sections 1, 2.1).
+3. (a) PageRank: The eigenvalue connection ([$25B paper](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf) Sections 1, 2.1).
 
-3b. PageRank: Modifying the matrix to make it work ([$25B paper](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf) Sections 2.2, 3.1).
+3. (b) PageRank: Modifying the matrix to make it work ([$25B paper](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf) Sections 2.2, 3.1).
 
-4a. Computing the eigenvector by the power method ([$25B paper](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf) Section 4).
+4. (a) Computing the eigenvector by the power method ([$25B paper](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf) Section 4).
 
-4b. The power method with a sparse matrix (Homework h06).
+4. (b) The power method with a sparse matrix (Homework h06).
 
 
 
