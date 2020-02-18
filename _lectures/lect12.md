@@ -30,5 +30,24 @@ For next time, read the rest of ["The $25,000,000,000 Eigenvector"](https://gith
 
 # Outline of today's lecture
 
-(to appear)
+- Eigenvalues and eigenvectors: definitions.
+- Three theorems about an n-by-n real matrix A:
+  - A has at least one and at most n eigenvalues, and at most n linearly independent eigenvectors.
+  - The eigenvalues of A and A.T are the same, though the eigenvectors usually aren't.
+  - If A is symmetric,
+    - All the eigenvalues of A are real.
+    - A has n linearly independent eigenvectors, which can be chosen to be orthogonal.
+- Adjacency matrix of a graph
+  - In our adjacency matrices, edges go _from_ columns _to_ rows. (Some people do it the other way around.)
+  - indegree and outdegree of a vertex.
+- The PageRank problem: which web pages are most important?
+  - important = lots of pages point to you? (ranking by indegree)
+  - important = lots of important pages point to you? (sounds like an eigenvector problem)
 
+
+- numpy/scipy routines:
+  - np.random.randn()
+  - spla.eig()
+  - np.sum()
+  - np.sort()
+  - np.argsort()
