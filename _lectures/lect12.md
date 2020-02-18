@@ -11,11 +11,6 @@ ready: true
 
 For next time, read the rest of ["The $25,000,000,000 Eigenvector"](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf).
 
-# References for this week's lectures
-
-NCM Sections 10.1, 10.2, and 10.5
-and ["The $25,000,000,000 Eigenvector"](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf).
-
 
 # Outline for this week's lectures, with references
 
