@@ -16,7 +16,7 @@ For next time, read the rest of ["The $25,000,000,000 Eigenvector"](https://gith
 
 1() Eigenvalues and eigenvectors (NCM Sections 10.1, 10.2, 10.5; [Gil Strang video lecture](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/) number 21).
 
-2() Graphs and adjacency matrices ([Wolfram article "adjacency matrix"](http://mathworld.wolfram.com/AdjacencyMatrix.html), but note that for a directed graph each edge (v,w) only makes A[w,v] == 1, and not A[v,w]).
+2() Graphs and adjacency matrices ([Lecture slides](https://github.com/ucsb-cs111/w20-lecture-files/blob/master/lecture_files/cs111-slides-04-PageRank.pdf); [Wolfram article "adjacency matrix"](http://mathworld.wolfram.com/AdjacencyMatrix.html), but note that for a directed graph each edge (v,w) only makes A[w,v] == 1, and not A[v,w]).
 
 3(a) PageRank: The eigenvalue connection ([$25B paper](https://github.com/ucsb-cs111/w19-lecture-files/blob/master/02.11/25_Billion_Eigenvector_Original.pdf) Sections 1, 2.1).
 
