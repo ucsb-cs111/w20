@@ -31,7 +31,3 @@ NCM Sections 7.1 through 7.3 (ODEs).
   - plt.plot()
   - plt.xlabel(), plt.ylabel(), plt.title()
   - plt.legend()
-
-- cs111 routines:
-  - cs111.ode1()
-  - cs111.ode2()

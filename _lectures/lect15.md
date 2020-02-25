@@ -26,3 +26,7 @@ this is the same algorithm that scipy calls RK23.
 - Euler's method (the forward Euler algorithm)
 - Variants of Euler's method
 - The RK23/BS23 algorithm and its relatives
+
+- cs111 routines:
+  - cs111.ode1()
+  - cs111.ode2()
