@@ -2,7 +2,7 @@
 num: "lect15"
 lecture_date: 2020-03-03
 desc: "ODEs: algorithms"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}
@@ -24,7 +24,7 @@ this is the same algorithm that scipy calls RK23.
   - the harmonic oscillator
 
 - Euler's method (the forward Euler algorithm)
-- Variants of Euler's method
+- 2-slope variants of Euler's method
 - The RK23/BS23 algorithm and its relatives
 
 - cs111 routines:
