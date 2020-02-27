@@ -1,6 +1,6 @@
 ---
 num: "lect15"
-lecture_date: 2020-03-03
+lecture_date: 2020-02-27
 desc: "ODEs: algorithms"
 ready: true
 ---

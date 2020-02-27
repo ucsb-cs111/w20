@@ -1,6 +1,6 @@
 ---
 num: "lect16"
-lecture_date: 2020-03-05
+lecture_date: 2020-03-03
 desc: "ODEs: stiff problems"
 ready: false
 ---
