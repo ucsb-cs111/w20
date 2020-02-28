@@ -9,7 +9,9 @@ ready: true
 
 # Reading assignment
 
-Read NCM Section 7.9 (stiff ODEs)
+Read NCM Section 7.9 (stiff ODEs) and
+[this page](http://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node3.html) on forward and backward Euler 
+(you just need the methods, not the convergence analysis).
 
 # References for today's lecture
 
