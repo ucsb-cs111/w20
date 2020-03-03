@@ -2,7 +2,7 @@
 num: "lect16"
 lecture_date: 2020-03-03
 desc: "ODEs: stiff problems"
-ready: false
+ready: true
 ---
 
 * {% include lecture_files.html %}
@@ -20,13 +20,14 @@ Read NCM Section 7.9 (stiff ODEs) and
 
 # Outline
 
-- Local error, global error, and stability 
-
 - Stiff ODEs
   - Symptoms and effects of stiffness 
   - Example: the flame ODE
   - Example: the valley walk ODE
   - Motivation for implicit methods
-  - The backward Euler method
+  - The Radau implicit method (scipy demo)
+  - The backward Euler method (theory)
   - Issues in implicit methods
-  - The Radau implicit method in scipy
+
+- numpy/scipy routines
+  - integrate.solve_ivp() with method='Radau'

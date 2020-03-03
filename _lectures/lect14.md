@@ -27,7 +27,7 @@ NCM Sections 7.1 through 7.3 (ODEs).
   - phase space plots
 
 - numpy/scipy routines:
-  - integrate.solve_ivp()
+  - integrate.solve_ivp() with method='RK23'
   - plt.plot()
   - plt.xlabel(), plt.ylabel(), plt.title()
   - plt.legend()
