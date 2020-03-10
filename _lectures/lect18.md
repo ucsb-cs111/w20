@@ -1,7 +1,7 @@
 ---
 num: "lect18"
 lecture_date: 2020-03-12
-desc: "PDEs: The wave equation"
+desc: "Applications of SVD"
 ready: false
 ---
 
