@@ -31,12 +31,5 @@ NCM Sections 10.1, 10.2, 10.10, 10.11
   - Determinant of A = product(singular values)
   - A = sum_i (s_i * outerproduct(u_i, v_i))
 
-- Computing the SVD
-
-- Low-rank approximation
-  - Theory
-  - Principal components
-  - Image compression
-
 - numpy/scipy routines:
   - spla.svd()
