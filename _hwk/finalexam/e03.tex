@@ -1,0 +1,102 @@
+\documentclass[11pt]{article} 
+
+\usepackage{amssymb,amsmath}
+
+\newcommand{\numpy}{{\tt numpy}}            % tt font for numpy
+\newcommand{\scipy}{{\tt scipy}}            % tt font for scipy
+\newcommand{\matplotlib}{{\tt matplotlib}}  % tt font for matplotlib
+
+\topmargin -1in
+\textheight 9in
+\oddsidemargin  -.25in
+\evensidemargin -.20in
+\textwidth 7in
+
+\begin{document}
+
+$$\mbox{\Large \bf CS 111: Optional Exam: Due by 11:59pm Monday, April 13}$$
+\par\bigskip\noindent
+
+This optional exam replaces the final exam for CS 111 in winter quarter 2020.
+You may take the exam or not as you please. 
+If you take the exam, 
+it will not lower your currently recorded final grade for CS 111;
+see Piazza {\tt @244} for details.
+The exam is open-book, but you may not consult or discuss it with anyone else.
+You must submit your work online as a PDF file to GradeScope.
+
+The exam consists of one somewhat open-ended question that uses what 
+we've studied in CS 111 in a standard model of epidemics.
+You will first do a straightforward {\tt scipy} simulation with a plot
+and an explanation of your work, 
+and then you are asked to explore beyond the straightforward simulation.
+The correct answer to the straightforward part will be graded as a B (80-89).
+An A grade (90-100) will be given for further exploration that produces
+interesting results and well-explained insight.
+
+\par\bigskip
+\noindent
+{\bf Question 0.}
+Do you agree to the following?
+\begin{quotation}
+\noindent
+I will not communicate anything about this exam with anyone 
+other than the instructor before the exam is due.
+I understand that failure to abide by this declaration constitutes 
+academic dishonesty under the UCSB Student Conduct Code.
+\end{quotation}
+\noindent
+If so, please answer ``I agree'' on your exam paper.
+Otherwise, please do not continue with the exam.
+
+\par\bigskip
+\noindent
+{\bf Question 1.} 
+Medical researchers have used ODEs as a tool to model the course of epidemics.
+If you're interested (not required for the exam), 
+you can learn much more about ODE epidemic models in this survey paper:
+{\tt https://epubs.siam.org/doi/abs/10.1137/S0036144500371907}.
+Here we will consider a somewhat simplified version of a 
+widely used model due to Kermack and McKendrick.
+The model is
+\begin{align}
+\dot y_0 &= -cy_0y_1, \\
+\dot y_1 &= cy_0y_1 - ry_1 - fy_1, \\
+\dot y_2 &= ry_1, \\
+\dot y_3 &= fy_1,
+\end{align}
+where $y_0$ is the number of susceptible individuals,
+$y_1$ represents infective individuals,
+$y_2$ represents immune individuals and infectives 
+removed by recovery and immunity,
+and $y_3$ represents infectives removed by fatality.
+The parameters $c$, $r$, and $f$ represent the contaigon rate,
+the recovery rate, and the fatality rate, all per unit time.
+(The time and the rates are expressed in units chosen to make the 
+equations simple, not to model any specific real situation.)
+
+Use {\tt integrate.solve\_ivp()} to solve this system numerically,
+with the parameter values $c=1$, $r=5$, and $f=1$,
+and initial values $y_0(0)=95$, $y_1(0)=5$, and $y_2(0)=y_3(0)=0$.
+Solve for times $t=0$ to $t=1$.
+Plot all four components of $y$ on the same graph as a function of $t$,
+using {\tt plt.legend()} to show which curve is which,
+and labeling the plot axes appropriately.
+As expected with an epidemic, 
+you should see the number of infections grow at first,
+then diminish to zero.
+
+Here is the open-ended part of the problem.
+Experiment with other values for the rate parameters ($c$, $r$, and $f$),
+and with other initial conditions (population size, number of initially
+infected individuals, number of initially immune individuals),
+using different time intervals if necessary to see how things stabilize.
+Which parameters have larger or smaller effects on the course of the epidemic?
+Can you find values for which the epidemic never infects the whole population?
+What other interesting values can you find or describe?
+What other observations can you make?
+
+Turn in all your python/scipy code (from Jupyter), plots of your results, 
+and explanations in English of what you tried and what you discovered.
+
+\end{document}
